@@ -1,0 +1,21 @@
+{
+  "stack": 587.4,
+  "reach": 390.0,
+  "topTubeActual": 551.9,
+  "topTubeEffective": 569.8,
+  "seatTubeCenterToTop": 515.0,
+  "seatTubeAngle": 73.0,
+  "headTubeLength": 170.0,
+  "headTubeAngle": 71.0,
+  "bottomBracketDrop": 68.0,
+  "chainStayLength": 453,
+  "wheelbase": 1069.6,
+  "forkAxleToCrown": 393,
+  "forkRake": 50,
+  "forkLength": 390,
+  "seatPostDiameter": 27.2,
+  "standoverHeight": 817.8,
+  "sources": [
+    "https://eu.ritcheylogic.com/media/itm/magb1/Productfiles/97500008002/ritchey-outback-my20-geometry-0420.pdf"
+  ]
+}

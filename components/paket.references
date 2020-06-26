@@ -1,0 +1,5 @@
+FSharp.Core
+FsToolkit.ErrorHandling
+Thoth.Json
+Thoth.Json.Net
+DotNet.Glob

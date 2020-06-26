@@ -1,0 +1,20 @@
+{
+  "manufacturerCode": "ritchey",
+  "seriesCode": "venturemax",
+  "rangeCode": "wcs",
+  "name": "WCS Carbon VentureMax Handlebar",
+  "sizes": [
+    {
+      "manufacturerProduceCode": "30356117050",
+      "nominalSize": "42cm",
+      "clampAreaWidth": 90.0,
+      "clampDiameter": 31.8,
+      "width": 420.0,
+      "drop": 102.0,
+      "reach": 77.0,
+      "dropFlare": 24.0,
+      "dropFlareOut": 6.0,
+      "outsideWidth": 545.0
+    }
+  ]
+}

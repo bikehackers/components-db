@@ -1,0 +1,13 @@
+{
+  "manufacturer": "shimano",
+  "productCode": "RD-RX812",
+  "actuationRatio": "27:10",
+  "capacity": 31,
+  "largestSprocketMaxTeeth": 42,
+  "largestSprocketMinTeeth": 40,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": 11,
+  "isClutched": true,
+  "weight": 267,
+  "speeds": 11
+}

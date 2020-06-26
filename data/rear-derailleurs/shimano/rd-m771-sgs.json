@@ -1,0 +1,13 @@
+{
+  "manufacturer": "shimano",
+  "productCode": "RD-M771-SGS",
+  "speeds": 9,
+  "largestSprocketMaxTeeth": 34,
+  "largestSprocketMinTeeth": 32,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": 11,
+  "weight": 239,
+  "actuationRatio": "17:10",
+  "capacity": 45,
+  "isClutched": false
+}

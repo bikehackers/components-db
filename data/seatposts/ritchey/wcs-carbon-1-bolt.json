@@ -1,0 +1,22 @@
+{
+  "manufacturer": "ritchey",
+  "seriesCode": "streem",
+  "rangeCode": "wcs",
+  "name": "WCS Carbon 1-Bolt",
+  "sizes": [
+    {
+      "manufacturerProduceCode": "41056117021",
+      "offset": 25,
+      "diameter": 27.2,
+      "length": 350,
+      "weight": 185
+    },
+    {
+      "manufacturerProduceCode": "41056117023",
+      "offset": 25,
+      "diameter": 31.6,
+      "length": 400,
+      "weight": null
+    }
+  ]
+}
