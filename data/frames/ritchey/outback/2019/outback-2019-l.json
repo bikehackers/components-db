@@ -1,0 +1,21 @@
+{
+  "stack": 576.0,
+  "reach": 395.0,
+  "topTubeActual": 553.0,
+  "topTubeEffective": 566.0,
+  "seatTubeCenterToTop": 525.0,
+  "seatTubeAngle": 74.0,
+  "headTubeLength": 160.0,
+  "headTubeAngle": 72.0,
+  "bottomBracketDrop": 70.0,
+  "chainStayLength": 437,
+  "wheelbase": 1040.6,
+  "forkAxleToCrown": 383,
+  "forkRake": 47,
+  "forkLength": 395,
+  "seatPostDiameter": 27.2,
+  "standoverHeight": 798.0,
+  "sources": [
+    "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-17-at-4-54-16-pm-1537217682.png?crop=0.947xw:1.00xh;0.0255xw,0&resize=980:*"
+  ]
+}

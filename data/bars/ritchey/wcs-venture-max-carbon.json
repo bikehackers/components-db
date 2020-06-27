@@ -11,6 +11,7 @@
       "clampDiameter": 31.8,
       "width": 420.0,
       "drop": 102.0,
+      "rise": 0.0,
       "reach": 77.0,
       "dropFlare": 24.0,
       "dropFlareOut": 6.0,

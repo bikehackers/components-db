@@ -2,7 +2,7 @@
   "manufacturerCode": "ritchey",
   "seriesCode": "streem",
   "rangeCode": "wcs",
-  "name": "WCS Streem Handlebar",
+  "name": "WCS Streem III Handlebar",
   "sizes": [
     {
       "manufacturerProduceCode": "30355427072",
@@ -11,6 +11,7 @@
       "clampDiameter": 31.8,
       "width": 420.0,
       "drop": 128.0,
+      "rise": 0.0,
       "reach": 73.0,
       "dropFlare": 2.0,
       "dropFlareOut": null,

@@ -1,0 +1,21 @@
+{
+  "stack": 590.0,
+  "reach": 400.0,
+  "topTubeActual": 565.0,
+  "topTubeEffective": 580.0,
+  "seatTubeCenterToTop": 540.0,
+  "seatTubeAngle": 73.0,
+  "headTubeLength": 180.0,
+  "headTubeAngle": 72.5,
+  "bottomBracketDrop": 63.0,
+  "chainStayLength": 437,
+  "wheelbase": 1048.6,
+  "forkAxleToCrown": 383,
+  "forkRake": 47,
+  "forkLength": 380,
+  "seatPostDiameter": 27.2,
+  "standoverHeight": 832.0,
+  "sources": [
+    "https://eu.ritcheylogic.com/media/itm/magb1/Productfiles/97550008002/ritchey-swissc-cross-disc-my19-geometry-0420.pdf"
+  ]
+}

@@ -1,0 +1,26 @@
+
+{
+  "manufacturerCode": "ritchey",
+  "seriesCode": "ergomax",
+  "rangeCode": "wcs",
+  "name": "WCS ErgoMax Handlebar",
+  "sizes": [
+    {
+      "manufacturerProduceCode": "30355008016",
+      "nominalSize": "42cm",
+      "clampAreaWidth": 80.0,
+      "clampDiameter": 31.8,
+      "width": 420.0,
+      "drop": 128.0,
+      "reach": 73.0,
+      "rise": 10.0,
+      "sweep": 5.0,
+      "dropFlare": 12.0,
+      "dropFlareOut": 3.0,
+      "outsideWidth": 503
+    }
+  ],
+  "sources": [
+    "https://eu.ritcheylogic.com/media/itm/magb1/Productfiles/30355008016/ergomax-spec-diagram.pdf"
+  ]
+}
