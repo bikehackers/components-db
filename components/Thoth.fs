@@ -31,11 +31,36 @@ module Decode =
           Weight = get.Optional.Field "weight" Decode.int
         })
 
-  let seatpost : Decoder<_> =
+  let seatpost : Decoder<SeatPost> =
     Decode.object
       (fun get ->
         {
           Sizes = get.Required.Field "sizes" (Decode.list seatpostSize)
+        })
+
+  let dropHandleBarSize : Decoder<DropHandleBarSize> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          ClampDiameter = get.Required.Field "clampDiameter" Decode.float
+          ClampAreaWidth = get.Optional.Field "clampAreaWidth" Decode.float
+          Width = get.Optional.Field "width" Decode.float
+          Drop = get.Optional.Field "drop" Decode.float
+          Reach = get.Optional.Field "reach" Decode.float
+          DropFlare = get.Optional.Field "dropFlare" Decode.float
+          DropFlareOut = get.Optional.Field "dropFlareOut" Decode.float
+          Rise = get.Optional.Field "rise" Decode.float
+          OutsideWidth = get.Optional.Field "outsideWidth" Decode.float
+          Weight = get.Optional.Field "weight" Decode.int
+        })
+
+  let dropHandleBar : Decoder<DropHandleBar> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerCode = get.Optional.Field "manufacturerCode" Decode.string
+          Sizes = get.Required.Field "sizes" (Decode.list dropHandleBarSize)
         })
 
   let actuationRatio =

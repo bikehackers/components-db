@@ -1,0 +1,82 @@
+
+{
+  "manufacturerCode": "specialized",
+  "seriesCode": "hover-alloy",
+  "rangeCode": null,
+  "name": "Hover Alloy Handlebars - 15mm Rise plus Flare",
+  "sizes": [
+    {
+      "manufacturerProduceCode": "21018-3038",
+      "nominalSize": "38cm",
+      "clampAreaWidth": null,
+      "clampDiameter": 31.8,
+      "width": 380.0,
+      "drop": 103.0,
+      "reach": 70.0,
+      "rise": 15.0,
+      "sweep": null,
+      "dropFlare": 12.0,
+      "dropFlareOut": null,
+      "outsideWidth": null
+    },
+    {
+      "manufacturerProduceCode": "21018-3040",
+      "nominalSize": "40cm",
+      "clampAreaWidth": null,
+      "clampDiameter": 31.8,
+      "width": 400.0,
+      "drop": 103.0,
+      "reach": 70.0,
+      "rise": 15.0,
+      "sweep": null,
+      "dropFlare": 12.0,
+      "dropFlareOut": null,
+      "outsideWidth": null
+    },
+    {
+      "manufacturerProduceCode": "21018-3042",
+      "nominalSize": "42cm",
+      "clampAreaWidth": null,
+      "clampDiameter": 31.8,
+      "width": 420.0,
+      "drop": 103.0,
+      "reach": 70.0,
+      "rise": 15.0,
+      "sweep": null,
+      "dropFlare": 12.0,
+      "dropFlareOut": null,
+      "outsideWidth": null
+    },
+    {
+      "manufacturerProduceCode": "21018-3044",
+      "nominalSize": "44cm",
+      "clampAreaWidth": null,
+      "clampDiameter": 31.8,
+      "width": 440.0,
+      "drop": 103.0,
+      "reach": 70.0,
+      "rise": 15.0,
+      "sweep": null,
+      "dropFlare": 12.0,
+      "dropFlareOut": null,
+      "outsideWidth": null
+    },
+    {
+      "manufacturerProduceCode": "21018-3046",
+      "nominalSize": "46cm",
+      "clampAreaWidth": null,
+      "clampDiameter": 31.8,
+      "width": 460.0,
+      "drop": 103.0,
+      "reach": 70.0,
+      "rise": 15.0,
+      "sweep": null,
+      "dropFlare": 12.0,
+      "dropFlareOut": null,
+      "outsideWidth": null
+    }
+  ],
+  "sources": [
+    "https://www.specialized.com/us/en/hover-alloy-handlebars--15mm-rise-plus-flare/p/155205"
+  ]
+}

@@ -1,36 +1,40 @@
 {
-  "clampDiameter": 26.0,
   "sizes": [
     {
-      "nominalSize": "38cm",
+      "nominalSize": "26.0 - 38cm",
+      "clampDiameter": 26.0,
       "width": 380.0,
       "drop": 130.0,
       "reach": 75.0,
       "flare": 0.0
     },
     {
-      "nominalSize": "40cm",
+      "nominalSize": "26.0 - 40cm",
+      "clampDiameter": 26.0,
       "width": 400.0,
       "drop": 130.0,
       "reach": 75.0,
       "flare": 0.0
     },
     {
-      "nominalSize": "42cm",
+      "nominalSize": "26.0 - 42cm",
+      "clampDiameter": 26.0,
       "width": 420.0,
       "drop": 130.0,
       "reach": 75.0,
       "flare": 0.0
     },
     {
-      "nominalSize": "44cm",
+      "nominalSize": "26.0 - 44cm",
+      "clampDiameter": 26.0,
       "width": 440.0,
       "drop": 130.0,
       "reach": 75.0,
       "flare": 0.0
     },
     {
-      "nominalSize": "46cm",
+      "nominalSize": "26.0 - 46cm",
+      "clampDiameter": 26.0,
       "width": 460.0,
       "drop": 130.0,
       "reach": 75.0,

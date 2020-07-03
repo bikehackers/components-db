@@ -113,5 +113,26 @@ async {
       |> Result.get
 
     printfn "%A" decoded
+
+  // Handlebars
+  let glob = Glob.Parse "./data/bars/**/*.json"
+
+  let xs =
+    filesUnderPath "./data/bars"
+    |> Seq.filter glob.IsMatch
+    |> Seq.toList
+
+  for filePath in xs do
+    printfn "%A" filePath
+
+    let! content =
+      File.ReadAllTextAsync filePath
+      |> Async.AwaitTask
+
+    let decoded =
+      Decode.fromString Decode.dropHandleBar content
+      |> Result.get
+
+    printfn "%A" decoded
 }
 |> Async.RunSynchronously

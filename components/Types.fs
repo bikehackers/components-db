@@ -79,17 +79,25 @@ type SeatPost =
     Sizes : SeatPostSize list
   }
 
-type DropHandleBar =
+type DropHandleBarSize =
   {
+    ManufacturerProductCode : string option
     ClampDiameter : float // mm
     ClampAreaWidth : float option
-    WidthAtTops : float option // CTC mm
+    Width : float option // CTC at the hoods mm
     Drop : float option // mm
     Reach : float option // mm
     DropFlare : float option // degrees
     Weight : int option
+    Rise : float option // mm
     DropFlareOut : float option
     OutsideWidth : float option // width of bars at the widest point
+  }
+
+type DropHandleBar =
+  {
+    ManufacturerCode : string option
+    Sizes : DropHandleBarSize list
   }
 
 type RearDerailleur =
