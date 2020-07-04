@@ -67,7 +67,7 @@ type CaliperRimBrake =
 
 type SeatPostSize =
   {
-    ManufacturerProductCode : string
+    ManufacturerProductCode : string option
     Diameter : float
     Offset : int
     Length : int
@@ -76,6 +76,8 @@ type SeatPostSize =
 
 type SeatPost =
   {
+    ManufacturerCode : string
+    Name : string
     Sizes : SeatPostSize list
   }
 
@@ -96,7 +98,8 @@ type DropHandleBarSize =
 
 type DropHandleBar =
   {
-    ManufacturerCode : string option
+    ManufacturerCode : string
+    Name : string
     Sizes : DropHandleBarSize list
   }
 

@@ -20,11 +20,11 @@ module Decode =
           Url = get.Optional.Field "url" Decode.string
         })
 
-  let seatpostSize : Decoder<_> =
+  let seatpostSize : Decoder<SeatPostSize> =
     Decode.object
       (fun get ->
         {
-          ManufacturerProductCode = get.Required.Field "manufacturerProduceCode" Decode.string
+          ManufacturerProductCode = get.Optional.Field "manufacturerProduceCode" Decode.string
           Diameter = get.Required.Field "diameter" Decode.float
           Offset = get.Required.Field "offset" Decode.int
           Length = get.Required.Field "length" Decode.int
@@ -35,6 +35,8 @@ module Decode =
     Decode.object
       (fun get ->
         {
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          Name = get.Required.Field "name" Decode.string
           Sizes = get.Required.Field "sizes" (Decode.list seatpostSize)
         })
 
@@ -59,7 +61,8 @@ module Decode =
     Decode.object
       (fun get ->
         {
-          ManufacturerCode = get.Optional.Field "manufacturerCode" Decode.string
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          Name = get.Required.Field "name" Decode.string
           Sizes = get.Required.Field "sizes" (Decode.list dropHandleBarSize)
         })
 
