@@ -5,6 +5,7 @@ mono: none
 sudo: false # use the new container-based Travis infrastructure
 script:
  - dotnet restore 
+ - dotnet tool restore
  - dotnet paket install
  - dotnet build
  - dotnet test
