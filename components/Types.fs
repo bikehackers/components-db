@@ -2,6 +2,10 @@ namespace BikeHackers.Components
 
 type Ratio = int * int
 
+type Side =
+  | Left
+  | Right
+
 type FrontOrRear =
   | Front
   | Rear
@@ -133,4 +137,18 @@ type Chain =
     ProductCode : string
     Speed : int
     Weight : int
+  }
+
+type Handedness =
+  | Specific of Side
+  | Ambi
+
+type IntegratedShifter =
+  {
+    ManufacturerCode : string
+    ManufacturerProductCode : string option
+    Speed : int
+    CablePull : float
+    Hand : Handedness
+    Weight : int option
   }

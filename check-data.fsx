@@ -134,5 +134,26 @@ async {
       |> Result.get
 
     printfn "%A" decoded
+
+  // Integrated shifters
+  let glob = Glob.Parse "./data/integrated-shifters/**/*.json"
+
+  let xs =
+    filesUnderPath "./data/integrated-shifters"
+    |> Seq.filter glob.IsMatch
+    |> Seq.toList
+
+  for filePath in xs do
+    printfn "%A" filePath
+
+    let! content =
+      File.ReadAllTextAsync filePath
+      |> Async.AwaitTask
+
+    let decoded =
+      Decode.fromString Decode.integratedShifter content
+      |> Result.get
+
+    printfn "%A" decoded
 }
 |> Async.RunSynchronously

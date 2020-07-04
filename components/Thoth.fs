@@ -120,6 +120,29 @@ module Decode =
         }
       )
 
+  let handedness : Decoder<Handedness> =
+    Decode.string
+    |> Decode.andThen (
+      function
+      | "right" -> Handedness.Specific Right |> Decode.succeed
+      | "left" -> Handedness.Specific Left |> Decode.succeed
+      | x ->
+        sprintf "Expected \"left\", \"right\" or \"ambidextrous\" but got \"%s\"" x
+        |> Decode.fail
+    )
+
+  let integratedShifter : Decoder<IntegratedShifter> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          Speed = get.Required.Field "speed" Decode.int
+          CablePull = get.Required.Field "cablePull" Decode.float
+          Hand = get.Required.Field "hand" handedness
+          Weight = get.Optional.Field "weight" Decode.int
+        })
+
 module CaliperRimBrake =
 
   let private decodePadCartridgeType : Decoder<_> =
