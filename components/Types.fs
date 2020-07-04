@@ -133,10 +133,10 @@ type Cassette =
 
 type Chain =
   {
-    Manufacturer : string
-    ProductCode : string
+    ManufacturerCode : string
+    ManufacturerProductCode : string
     Speed : int
-    Weight : int
+    Weight : int option
   }
 
 type Handedness =

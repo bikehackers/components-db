@@ -143,6 +143,16 @@ module Decode =
           Weight = get.Optional.Field "weight" Decode.int
         })
 
+  let chain : Decoder<Chain> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          ManufacturerProductCode = get.Required.Field "manufacturerProductCode" Decode.string
+          Speed = get.Required.Field "speed" Decode.int
+          Weight = get.Optional.Field "weight" Decode.int
+        })
+
 module CaliperRimBrake =
 
   let private decodePadCartridgeType : Decoder<_> =

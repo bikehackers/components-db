@@ -155,5 +155,26 @@ async {
       |> Result.get
 
     printfn "%A" decoded
+
+  // Chains
+  let glob = Glob.Parse "./data/chains/**/*.json"
+
+  let xs =
+    filesUnderPath "./data/chains"
+    |> Seq.filter glob.IsMatch
+    |> Seq.toList
+
+  for filePath in xs do
+    printfn "%A" filePath
+
+    let! content =
+      File.ReadAllTextAsync filePath
+      |> Async.AwaitTask
+
+    let decoded =
+      Decode.fromString Decode.chain content
+      |> Result.get
+
+    printfn "%A" decoded
 }
 |> Async.RunSynchronously
