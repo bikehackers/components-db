@@ -153,6 +153,17 @@ module Decode =
           Weight = get.Optional.Field "weight" Decode.int
         })
 
+  let cassette : Decoder<Cassette> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          ManufacturerProductCode = get.Required.Field "manufacturerProductCode" Decode.string
+          Sprockets = get.Required.Field "sprockets" (Decode.list Decode.int)
+          SprocketPitch = get.Required.Field "sprocketPitch" Decode.float
+          Interface = get.Required.Field "interface" Decode.string
+        })
+
 module CaliperRimBrake =
 
   let private decodePadCartridgeType : Decoder<_> =

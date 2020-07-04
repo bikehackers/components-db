@@ -124,8 +124,8 @@ type RearDerailleur =
 
 type Cassette =
   {
-    Manufacturer : string
-    ProductCode : string
+    ManufacturerCode : string
+    ManufacturerProductCode : string
     Sprockets : int list
     SprocketPitch : float
     Interface : string

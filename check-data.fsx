@@ -176,5 +176,26 @@ async {
       |> Result.get
 
     printfn "%A" decoded
+
+  // Cassettes
+  let glob = Glob.Parse "./data/cassettes/**/*.json"
+
+  let xs =
+    filesUnderPath "./data/cassettes"
+    |> Seq.filter glob.IsMatch
+    |> Seq.toList
+
+  for filePath in xs do
+    printfn "%A" filePath
+
+    let! content =
+      File.ReadAllTextAsync filePath
+      |> Async.AwaitTask
+
+    let decoded =
+      Decode.fromString Decode.cassette content
+      |> Result.get
+
+    printfn "%A" decoded
 }
 |> Async.RunSynchronously
