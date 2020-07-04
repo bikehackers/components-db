@@ -1,0 +1,9 @@
+language: csharp
+os: linux
+dotnet: 3.1.300
+mono: none
+sudo: false # use the new container-based Travis infrastructure
+script:
+  dotnet restore 
+  dotnet build
+  ./check-data.sh
