@@ -7,3 +7,11 @@ nuget DotNet.Glob 3.0.9
 nuget FsToolkit.ErrorHandling 1.4.1
 nuget Thoth.Json
 nuget Thoth.Json.Net
+
+group Test
+  source https://api.nuget.org/v3/index.json
+
+  nuget Thoth.Json.Net
+  nuget FsUnit.xUnit 3.9.0
+  nuget xunit.runner.visualstudio
+  nuget Microsoft.NET.Test.Sdk

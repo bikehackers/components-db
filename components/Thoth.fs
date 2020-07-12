@@ -4,6 +4,29 @@ open System
 open BikeHackers.Components
 open Thoth.Json.Net
 
+module Encode =
+
+  let actuationRatio =
+    (fun (x, y) -> Encode.string (sprintf "%i:%i" x y))
+
+  let rearDerailleur : Encoder<RearDerailleur> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturer", Encode.string x.Manufacturer
+          "productCode", Encode.string x.ProductCode
+          "actuationRatio", actuationRatio x.ActuationRatio
+          "speeds", Encode.int x.Speed
+          "weight", Encode.int x.Weight
+          "largestSprocketMaxTeeth", Encode.int x.LargestSprocketMaxTeeth
+          "largestSprocketMinTeeth", Encode.int x.LargestSprocketMinTeeth
+          "smallestSprocketMaxTeeth", Encode.int x.SmallestSprocketMaxTeeth
+          "smallestSprocketMinTeeth", Encode.int x.SmallestSprocketMinTeeth
+          "capacity", Encode.int x.Capacity
+          "isClutched", Encode.bool x.Clutched
+        ]
+    )
+
 module Decode =
 
   let private tryParseInt (x : string) =
