@@ -6,6 +6,15 @@ open Thoth.Json.Net
 
 module Encode =
 
+  let orNone (enc : Encoder<_>) : Encoder<_> =
+    function
+    | Some x -> enc x
+    | None -> Encode.nil
+
+  let stringOrNone = orNone Encode.string
+
+  let intOrNone = orNone Encode.int
+
   let actuationRatio =
     (fun (x, y) -> Encode.string (sprintf "%i:%i" x y))
 
@@ -26,6 +35,57 @@ module Encode =
           "isClutched", Encode.bool x.Clutched
         ]
     )
+
+  let chain : Encoder<Chain> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "manufacturerProductCode", Encode.string x.ManufacturerProductCode
+          "speed", Encode.int x.Speed
+          "weight", intOrNone x.Weight
+        ])
+
+  let cassette : Encoder<Cassette> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "manufacturerProductCode", Encode.string x.ManufacturerProductCode
+          "interface", Encode.string x.Interface
+          "sprockets", Encode.list (x.Sprockets |> List.map Encode.int)
+          "sprocketPitch", Encode.float x.SprocketPitch
+        ])
+
+  let handedness : Encoder<Handedness> =
+    (fun x ->
+      match x with
+      | Ambi -> Encode.string "ambidextrous"
+      | Specific Left -> Encode.string "left"
+      | Specific Right -> Encode.string "right")
+
+  let integratedShifter : Encoder<IntegratedShifter> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "manufacturerProductCode", stringOrNone x.ManufacturerProductCode
+          "speed", Encode.int x.Speed
+          "cablePull", Encode.float x.CablePull
+          "hand", handedness x.Hand
+          "weight", intOrNone x.Weight
+        ])
+
+    // Decode.object
+    //   (fun get ->
+    //     {
+    //       ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+    //       ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+    //       Speed = get.Required.Field "speed" Decode.int
+    //       CablePull = get.Required.Field "cablePull" Decode.float
+    //       Hand = get.Required.Field "hand" handedness
+    //       Weight = get.Optional.Field "weight" Decode.int
+    //     })
 
 module Decode =
 
@@ -147,6 +207,7 @@ module Decode =
     Decode.string
     |> Decode.andThen (
       function
+      | "ambidextrous" -> Handedness.Ambi |> Decode.succeed
       | "right" -> Handedness.Specific Right |> Decode.succeed
       | "left" -> Handedness.Specific Left |> Decode.succeed
       | x ->
