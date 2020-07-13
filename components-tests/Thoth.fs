@@ -2,10 +2,15 @@ module BikeHackers.Components.Tests.Thoth
 
 open FsUnit
 open Xunit
-open Thoth.Json.Net
 open BikeHackers.Components
 open BikeHackers.Components.Thoth
 open BikeHackers.Components.Tests.Utils
+
+#if FABLE_COMPILER
+open Thoth.Json
+#else
+open Thoth.Json.Net
+#endif
 
 [<Fact>]
 let ``Encode.rearDerailleur should work for a round-trip`` () =

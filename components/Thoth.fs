@@ -2,7 +2,12 @@ namespace BikeHackers.Components.Thoth
 
 open System
 open BikeHackers.Components
+
+#if FABLE_COMPILER
+open Thoth.Json
+#else
 open Thoth.Json.Net
+#endif
 
 module Encode =
 
