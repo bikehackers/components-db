@@ -5,7 +5,7 @@
   "name": "Hover Alloy Handlebars - 15mm Rise plus Flare",
   "sizes": [
     {
-      "manufacturerProduceCode": "21018-3038",
+      "manufacturerProductCode": "21018-3038",
       "nominalSize": "38cm",
       "clampAreaWidth": null,
       "clampDiameter": 31.8,
@@ -19,7 +19,7 @@
       "outsideWidth": null
     },
     {
-      "manufacturerProduceCode": "21018-3040",
+      "manufacturerProductCode": "21018-3040",
       "nominalSize": "40cm",
       "clampAreaWidth": null,
       "clampDiameter": 31.8,
@@ -33,7 +33,7 @@
       "outsideWidth": null
     },
     {
-      "manufacturerProduceCode": "21018-3042",
+      "manufacturerProductCode": "21018-3042",
       "nominalSize": "42cm",
       "clampAreaWidth": null,
       "clampDiameter": 31.8,
@@ -47,7 +47,7 @@
       "outsideWidth": null
     },
     {
-      "manufacturerProduceCode": "21018-3044",
+      "manufacturerProductCode": "21018-3044",
       "nominalSize": "44cm",
       "clampAreaWidth": null,
       "clampDiameter": 31.8,
@@ -61,7 +61,7 @@
       "outsideWidth": null
     },
     {
-      "manufacturerProduceCode": "21018-3046",
+      "manufacturerProductCode": "21018-3046",
       "nominalSize": "46cm",
       "clampAreaWidth": null,
       "clampDiameter": 31.8,

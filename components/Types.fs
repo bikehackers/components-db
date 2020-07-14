@@ -88,6 +88,7 @@ type SeatPost =
 type DropHandleBarSize =
   {
     ManufacturerProductCode : string option
+    NominalSize : string
     ClampDiameter : float // mm
     ClampAreaWidth : float option
     Width : float option // CTC at the hoods mm
@@ -95,6 +96,7 @@ type DropHandleBarSize =
     Reach : float option // mm
     DropFlare : float option // degrees
     Weight : int option
+    Sweep : float option
     Rise : float option // mm
     DropFlareOut : float option
     OutsideWidth : float option // width of bars at the widest point

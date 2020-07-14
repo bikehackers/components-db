@@ -101,3 +101,39 @@ let ``Encode.integratedShifter should work for a round-trip`` () =
     |> Result.get
 
   decoded |> should equal x
+
+[<Fact>]
+let ``Encode.dropHandleBar should work for a round-trip`` () =
+  let x =
+    {
+      ManufacturerCode = "ritchey"
+      Name = "WCS ErgoMax Handlebar"
+      Sizes =
+        [
+          {
+            ManufacturerProductCode = Some "30355008016"
+            NominalSize = "42cm"
+            ClampAreaWidth = Some 80.0
+            ClampDiameter = 31.8
+            Width = Some 420.0
+            Drop = Some 128.0
+            Reach = Some 73.0
+            Rise = Some 10.0
+            Sweep = Some 5.0
+            DropFlare = Some 12.0
+            DropFlareOut = Some 3.0
+            OutsideWidth = Some 503.0
+            Weight = None
+          }
+        ]
+    }
+
+  let encoded =
+    Encode.dropHandleBar x
+    |> Encode.toString 2
+
+  let decoded =
+    Decode.fromString Decode.dropHandleBar encoded
+    |> Result.get
+
+  decoded |> should equal x

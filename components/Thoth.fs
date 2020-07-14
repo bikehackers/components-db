@@ -9,16 +9,24 @@ open Thoth.Json
 open Thoth.Json.Net
 #endif
 
+module Extras =
+
+  module Encode =
+
+    let orNone (enc : Encoder<_>) : Encoder<_> =
+      function
+      | Some x -> enc x
+      | None -> Encode.nil
+
+    let stringOrNone = orNone Encode.string
+
+    let intOrNone = orNone Encode.int
+
+    let floatOrNone = orNone Encode.float
+
 module Encode =
 
-  let orNone (enc : Encoder<_>) : Encoder<_> =
-    function
-    | Some x -> enc x
-    | None -> Encode.nil
-
-  let stringOrNone = orNone Encode.string
-
-  let intOrNone = orNone Encode.int
+  open Extras
 
   let actuationRatio =
     (fun (x, y) -> Encode.string (sprintf "%i:%i" x y))
@@ -48,7 +56,7 @@ module Encode =
           "manufacturerCode", Encode.string x.ManufacturerCode
           "manufacturerProductCode", Encode.string x.ManufacturerProductCode
           "speed", Encode.int x.Speed
-          "weight", intOrNone x.Weight
+          "weight", Encode.intOrNone x.Weight
         ])
 
   let cassette : Encoder<Cassette> =
@@ -74,23 +82,40 @@ module Encode =
       Encode.object
         [
           "manufacturerCode", Encode.string x.ManufacturerCode
-          "manufacturerProductCode", stringOrNone x.ManufacturerProductCode
+          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
           "speed", Encode.int x.Speed
           "cablePull", Encode.float x.CablePull
           "hand", handedness x.Hand
-          "weight", intOrNone x.Weight
+          "weight", Encode.intOrNone x.Weight
         ])
 
-    // Decode.object
-    //   (fun get ->
-    //     {
-    //       ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
-    //       ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
-    //       Speed = get.Required.Field "speed" Decode.int
-    //       CablePull = get.Required.Field "cablePull" Decode.float
-    //       Hand = get.Required.Field "hand" handedness
-    //       Weight = get.Optional.Field "weight" Decode.int
-    //     })
+  let dropHandleBarSize : Encoder<DropHandleBarSize> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "nominalSize", Encode.string x.NominalSize
+          "clampDiameter", Encode.float x.ClampDiameter
+          "clampAreaWidth", Encode.floatOrNone x.ClampAreaWidth
+          "drop", Encode.floatOrNone x.Drop
+          "reach", Encode.floatOrNone x.Reach
+          "width", Encode.floatOrNone x.Width
+          "dropFlare", Encode.floatOrNone x.DropFlare
+          "dropFlareOut", Encode.floatOrNone x.DropFlareOut
+          "rise", Encode.floatOrNone x.Rise
+          "sweep", Encode.floatOrNone x.Sweep
+          "outsideWidth", Encode.floatOrNone x.OutsideWidth
+          "weight", Encode.intOrNone x.Weight
+        ])
+
+  let dropHandleBar : Encoder<DropHandleBar> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "name", Encode.string x.Name
+          "sizes", Encode.list (x.Sizes |> List.map dropHandleBarSize)
+        ])
 
 module Decode =
 
@@ -133,6 +158,7 @@ module Decode =
       (fun get ->
         {
           ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          NominalSize = get.Required.Field "nominalSize" Decode.string
           ClampDiameter = get.Required.Field "clampDiameter" Decode.float
           ClampAreaWidth = get.Optional.Field "clampAreaWidth" Decode.float
           Width = get.Optional.Field "width" Decode.float
@@ -141,6 +167,7 @@ module Decode =
           DropFlare = get.Optional.Field "dropFlare" Decode.float
           DropFlareOut = get.Optional.Field "dropFlareOut" Decode.float
           Rise = get.Optional.Field "rise" Decode.float
+          Sweep = get.Optional.Field "sweep" Decode.float
           OutsideWidth = get.Optional.Field "outsideWidth" Decode.float
           Weight = get.Optional.Field "weight" Decode.int
         })
