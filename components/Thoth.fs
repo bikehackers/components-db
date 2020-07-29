@@ -41,10 +41,10 @@ module Encode =
           "speeds", Encode.int x.Speed
           "weight", Encode.int x.Weight
           "largestSprocketMaxTeeth", Encode.int x.LargestSprocketMaxTeeth
-          "largestSprocketMinTeeth", Encode.int x.LargestSprocketMinTeeth
-          "smallestSprocketMaxTeeth", Encode.int x.SmallestSprocketMaxTeeth
-          "smallestSprocketMinTeeth", Encode.int x.SmallestSprocketMinTeeth
-          "capacity", Encode.int x.Capacity
+          "largestSprocketMinTeeth", Encode.intOrNone x.LargestSprocketMinTeeth
+          "smallestSprocketMaxTeeth", Encode.intOrNone x.SmallestSprocketMaxTeeth
+          "smallestSprocketMinTeeth", Encode.intOrNone x.SmallestSprocketMinTeeth
+          "capacity", Encode.intOrNone x.Capacity
           "isClutched", Encode.bool x.Clutched
         ]
     )
@@ -204,10 +204,10 @@ module Decode =
           Speed = get.Required.Field "speeds" Decode.int
           Weight = get.Required.Field "weight" Decode.int
           LargestSprocketMaxTeeth = get.Required.Field "largestSprocketMaxTeeth" Decode.int
-          LargestSprocketMinTeeth = get.Required.Field "largestSprocketMinTeeth" Decode.int
-          SmallestSprocketMaxTeeth = get.Required.Field "smallestSprocketMaxTeeth" Decode.int
-          SmallestSprocketMinTeeth = get.Required.Field "smallestSprocketMinTeeth" Decode.int
-          Capacity = get.Required.Field "capacity" Decode.int
+          LargestSprocketMinTeeth = get.Optional.Field "largestSprocketMinTeeth" Decode.int
+          SmallestSprocketMaxTeeth = get.Optional.Field "smallestSprocketMaxTeeth" Decode.int
+          SmallestSprocketMinTeeth = get.Optional.Field "smallestSprocketMinTeeth" Decode.int
+          Capacity = get.Optional.Field "capacity" Decode.int
           Clutched = get.Required.Field "isClutched" Decode.bool
         }
       )

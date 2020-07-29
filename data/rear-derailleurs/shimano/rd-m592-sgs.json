@@ -1,0 +1,13 @@
+{
+  "manufacturer": "shimano",
+  "productCode": "RD-M592-SGS",
+  "actuationRatio": "17:10",
+  "capacity": 45,
+  "largestSprocketMaxTeeth": 36,
+  "largestSprocketMinTeeth": 32,
+  "smallestSprocketMaxTeeth": 12,
+  "smallestSprocketMinTeeth": 11,
+  "isClutched": false,
+  "weight": 286,
+  "speeds": 9
+}

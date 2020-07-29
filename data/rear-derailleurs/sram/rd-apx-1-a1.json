@@ -1,0 +1,13 @@
+{
+  "manufacturer": "sram",
+  "productCode": "RD-APX-1-A1",
+  "speeds": 11,
+  "largestSprocketMaxTeeth": 42,
+  "largestSprocketMinTeeth": null,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": null,
+  "weight": 312,
+  "actuationRatio": "13:10",
+  "capacity": null,
+  "isClutched": true
+}

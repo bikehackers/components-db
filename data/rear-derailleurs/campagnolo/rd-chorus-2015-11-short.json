@@ -1,0 +1,13 @@
+{
+  "manufacturer": "campagnolo",
+  "productCode": "RD-CHORUS-2015-11-SHORT",
+  "actuationRatio": "15:10",
+  "capacity": 34,
+  "largestSprocketMaxTeeth": 29,
+  "largestSprocketMinTeeth": null,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": 11,
+  "isClutched": false,
+  "weight": 183,
+  "speeds": 11
+}

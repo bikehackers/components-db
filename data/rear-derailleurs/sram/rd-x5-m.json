@@ -1,0 +1,13 @@
+{
+  "manufacturer": "sram",
+  "productCode": "RD-X5-M",
+  "speeds": 9,
+  "largestSprocketMaxTeeth": 36,
+  "largestSprocketMinTeeth": null,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": null,
+  "weight": 295,
+  "actuationRatio": "1:1",
+  "capacity": null,
+  "isClutched": true
+}

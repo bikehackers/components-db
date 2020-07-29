@@ -117,10 +117,10 @@ type RearDerailleur =
     Speed : int
     Weight : int
     LargestSprocketMaxTeeth : int
-    LargestSprocketMinTeeth : int
-    SmallestSprocketMaxTeeth : int
-    SmallestSprocketMinTeeth : int
-    Capacity : int
+    LargestSprocketMinTeeth : int option
+    SmallestSprocketMaxTeeth : int option
+    SmallestSprocketMinTeeth : int option
+    Capacity : int option
     Clutched : bool
   }
 

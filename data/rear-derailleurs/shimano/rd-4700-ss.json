@@ -1,0 +1,13 @@
+{
+  "manufacturer": "shimano",
+  "productCode": "RD-4700-SS",
+  "actuationRatio": "14:10",
+  "capacity": 33,
+  "largestSprocketMaxTeeth": 28,
+  "largestSprocketMinTeeth": 25,
+  "smallestSprocketMaxTeeth": 14,
+  "smallestSprocketMinTeeth": 11,
+  "isClutched": false,
+  "weight": 275,
+  "speeds": 10
+}

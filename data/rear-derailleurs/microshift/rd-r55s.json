@@ -1,0 +1,13 @@
+{
+  "manufacturer": "microshift",
+  "productCode": "RD-R55S",
+  "actuationRatio": "27:10",
+  "capacity": 35,
+  "largestSprocketMaxTeeth": 32,
+  "largestSprocketMinTeeth": 25,
+  "smallestSprocketMaxTeeth": 11,
+  "smallestSprocketMinTeeth": 11,
+  "isClutched": false,
+  "weight": 195,
+  "speeds": 10
+}
