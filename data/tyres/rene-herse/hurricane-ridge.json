@@ -1,0 +1,43 @@
+{
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "hurricane-ridge-tc",
+  "name": "Hurricane Ridge",
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 42,
+      "colors": [ "tan" ],
+      "tpi": 90,
+      "weight": 515,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 42,
+      "colors": [ "tan", "black" ],
+      "tpi": 90,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 622,
+      "width": 42,
+      "colors": [ "dark-tan" ],
+      "tpi": 90,
+      "weight": 515,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance Plus",
+      "bsd": 622,
+      "width": 42,
+      "colors": [ "dark-tan" ],
+      "tpi": 90,
+      "weight": 545,
+      "type": "tubeless"
+    }
+  ]
+}

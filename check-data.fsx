@@ -18,6 +18,19 @@ module Result =
     | Ok o -> o
     | Error e -> failwith (sprintf "Expected Result.Ok but got %A" e)
 
+module Async =
+
+  let sequence xs =
+    async {
+      let mutable results = []
+
+      for x in xs do
+        let! result = x
+        results <- result :: results
+
+      return results
+    }
+
 let rec private filesUnderPath (basePath : string) =
   seq {
     if Directory.Exists basePath
@@ -38,18 +51,29 @@ async {
     |> Seq.filter glob.IsMatch
     |> Seq.toList
 
-  for filePath in xs do
-    printfn "%A" filePath
+  let! manufacturers =
+    xs
+    |> Seq.map (fun filePath -> async {
+      printfn "%A" filePath
 
-    let! content =
-      File.ReadAllTextAsync filePath
-      |> Async.AwaitTask
+      let! content =
+        File.ReadAllTextAsync filePath
+        |> Async.AwaitTask
 
-    let decoded =
-      Decode.fromString Decode.manufacturer content
-      |> Result.get
+      let decoded =
+        Decode.fromString Decode.manufacturer content
+        |> Result.get
 
-    printfn "%A" decoded
+      printfn "%A" decoded
+
+      return decoded
+    })
+    |> Async.sequence
+
+  let manufacturers =
+    manufacturers
+    |> Seq.map (fun x -> x.Code, x)
+    |> Map.ofSeq
 
   // Frames
   let glob = Glob.Parse "./data/frames/**/*.json"
@@ -197,5 +221,27 @@ async {
       |> Result.get
 
     printfn "%A" decoded
+
+    // Tyres
+    let glob = Glob.Parse "./data/tyres/**/*.json"
+
+    let xs =
+      filesUnderPath "./data/tyres"
+      |> Seq.filter glob.IsMatch
+      |> Seq.toList
+
+    for filePath in xs do
+      printfn "%A" filePath
+
+      let! content =
+        File.ReadAllTextAsync filePath
+        |> Async.AwaitTask
+
+      let decoded =
+        Decode.fromString Decode.tyre content
+        |> Result.get
+
+      printfn "%A" decoded
+      printfn "%A" (Map.find decoded.ManufacturerCode manufacturers)
 }
 |> Async.RunSynchronously

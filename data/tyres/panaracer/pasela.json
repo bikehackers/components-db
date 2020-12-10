@@ -1,0 +1,27 @@
+{
+  "manufacturerCode": "panaracer",
+  "name": "Pasela",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700PASF617",
+      "bsd": 559,
+      "width": 42,
+      "colors": [ "amber-wall" ],
+      "type": "clincher"
+    },
+    {
+      "manufacturerProductCode": "PA700PAS15",
+      "bsd": 559,
+      "width": 37,
+      "colors": [ "amber-wall" ],
+      "type": "clincher"
+    },
+    {
+      "manufacturerProductCode": "PA700PAS12",
+      "bsd": 559,
+      "width": 32,
+      "colors": [ "amber-wall" ],
+      "type": "clincher"
+    }
+  ]
+}

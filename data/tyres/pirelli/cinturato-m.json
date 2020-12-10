@@ -1,0 +1,46 @@
+{
+  "manufacturerCode": "pirelli",
+  "name": "Cinturato Gravel M",
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 45,
+      "colors": [ "black", "brown" ],
+      "tpi": 127,
+      "weight": 570,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 622,
+      "width": 40,
+      "colors": [ "black", "brown" ],
+      "tpi": 127,
+      "weight": 500,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "colors": [ "black", "brown" ],
+      "tpi": 127,
+      "weight": 430,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 584,
+      "width": 45,
+      "colors": [ "black", "brown" ],
+      "tpi": 127,
+      "weight": 520,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 584,
+      "width": 50,
+      "colors": [ "black", "brown" ],
+      "tpi": 127,
+      "weight": 550,
+      "type": "tubeless"
+    }
+  ]
+}
