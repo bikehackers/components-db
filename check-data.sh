@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-dotnet paket install
+dotnet paket restore
 dotnet paket generate-load-scripts
 dotnet fsi ./check-data.fsx

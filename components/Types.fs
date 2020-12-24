@@ -154,3 +154,34 @@ type IntegratedShifter =
     Hand : Handedness
     Weight : int option
   }
+
+type TyreType =
+  | Clincher
+  | Tubeless
+  | Tubular
+
+type TyreSize =
+  {
+    ManufacturerProductCode : string option
+    BeadSeatDiameter : int
+    Width : int
+    Weight : int option
+    Type : TyreType
+  }
+
+type Tyre =
+  {
+    ManufacturerCode : string
+    ManufacturerProductCode : string option
+    Name : string
+    Sizes : TyreSize list
+  }
+
+module WheelBsd =
+
+  let fromMillimeters (x : int) =
+    match x with
+    | 622 -> Some W700C
+    | 584 -> Some W650B
+    | 559 -> Some W26
+    | _ -> None

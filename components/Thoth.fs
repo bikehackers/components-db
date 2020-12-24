@@ -280,9 +280,7 @@ module Decode =
           Interface = get.Required.Field "interface" Decode.string
         })
 
-module CaliperRimBrake =
-
-  let private decodePadCartridgeType : Decoder<_> =
+  let private padCartridgeType : Decoder<_> =
     Decode.string
     |> Decode.andThen
       (function
@@ -291,7 +289,7 @@ module CaliperRimBrake =
       | "campagnolo-old" -> Decode.succeed CampagnoloOld
       | x -> Decode.fail (sprintf "Unknown pad cartridge type %s" x))
 
-  let private decodeFixingType : Decoder<_> =
+  let private brakeFixingType : Decoder<_> =
     Decode.string
     |> Decode.andThen
       (function
@@ -299,13 +297,46 @@ module CaliperRimBrake =
       | "traditional" -> Decode.succeed TraditionalNut
       | x -> Decode.fail (sprintf "Unknown brake fixing type %s" x))
 
-  let decoder : Decoder<CaliperRimBrake> =
+  let caliperRimBrake : Decoder<CaliperRimBrake> =
     Decode.object
       (fun get ->
         {
           MinimumReach = get.Required.Field "minimumReach" Decode.int
           MaximumReach = get.Required.Field "maximumReach" Decode.int
-          PadCartridgeType = get.Required.Field "padCartridgeType" decodePadCartridgeType
-          FixingType = get.Required.Field "fixingType" decodeFixingType
+          PadCartridgeType = get.Required.Field "padCartridgeType" padCartridgeType
+          FixingType = get.Required.Field "fixingType" brakeFixingType
+        }
+      )
+
+  let tyreType : Decoder<TyreType> =
+    Decode.string
+    |> Decode.andThen (fun x ->
+      match x with
+      | "clincher" -> Decode.succeed TyreType.Clincher
+      | "tubeless" -> Decode.succeed TyreType.Tubeless
+      | "tubular" -> Decode.succeed TyreType.Tubular
+      | _ -> Decode.fail (sprintf "%s is not a valid tyre type" x)
+    )
+
+  let tyreSize : Decoder<TyreSize> =
+    Decode.object
+      (fun get ->
+        {
+          BeadSeatDiameter = get.Required.Field "bsd" Decode.int
+          ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          Type = get.Required.Field "type" tyreType
+          Weight = get.Optional.Field "weight" Decode.int
+          Width = get.Required.Field "width" Decode.int
+        }
+      )
+
+  let tyre : Decoder<Tyre> =
+    Decode.object
+      (fun get ->
+        {
+          ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
+          ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          Name = get.Required.Field "name" Decode.string
+          Sizes = get.Required.Field "sizes" (Decode.list tyreSize)
         }
       )

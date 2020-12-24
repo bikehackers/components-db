@@ -1,0 +1,14 @@
+{
+  "manufacturerCode": "ritchey",
+  "name": "Speedmax WCS",
+  "sizes": [
+    {
+      "manufacturerProductCode": "46550817006",
+      "bsd": 622,
+      "width": 40,
+      "tpi": 120,
+      "colors": [ "black" ],
+      "type": "tubeless"
+    }
+  ]
+}
