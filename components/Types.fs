@@ -1,5 +1,7 @@
 namespace BikeHackers.Components
 
+open System
+
 type Ratio = int * int
 
 type Side =
@@ -171,6 +173,7 @@ type TyreSize =
 
 type Tyre =
   {
+    ID : Guid
     ManufacturerCode : string
     ManufacturerProductCode : string option
     Name : string
