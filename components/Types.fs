@@ -169,6 +169,9 @@ type TyreSize =
     Width : int
     Weight : int option
     Type : TyreType
+    TreadColor : string
+    SidewallColor : string
+    Tpi : int option
   }
 
 type Tyre =

@@ -117,6 +117,38 @@ module Encode =
           "sizes", Encode.list (x.Sizes |> List.map dropHandleBarSize)
         ])
 
+  let tyreType : Encoder<TyreType> =
+    function
+    | Clincher -> "clincher"
+    | Tubeless -> "tubeless"
+    | Tubular -> "tubular"
+    >> Encode.string
+
+  let tyreSize : Encoder<TyreSize> =
+    (fun x ->
+      Encode.object
+        [
+          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "bsd", Encode.int x.BeadSeatDiameter
+          "type", tyreType x.Type
+          "width", Encode.int x.Width
+          "weight", Encode.intOrNone x.Weight
+          "treadColor", Encode.string x.TreadColor
+          "sidewallColor", Encode.string x.SidewallColor
+          "tpi", Encode.intOrNone x.Tpi
+        ])
+
+  let tyre : Encoder<Tyre> =
+    (fun x ->
+      Encode.object
+        [
+          "id", Encode.guid x.ID
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "name", Encode.string x.Name
+          "sizes", Encode.list (x.Sizes |> List.map tyreSize)
+        ])
+
 module Decode =
 
   let private tryParseInt (x : string) =
@@ -327,6 +359,9 @@ module Decode =
           Type = get.Required.Field "type" tyreType
           Weight = get.Optional.Field "weight" Decode.int
           Width = get.Required.Field "width" Decode.int
+          TreadColor = get.Required.Field "treadColor" Decode.string
+          SidewallColor = get.Required.Field "sidewallColor" Decode.string
+          Tpi = get.Optional.Field "tpi" Decode.int
         }
       )
 

@@ -1,5 +1,6 @@
 module BikeHackers.Components.Tests.Thoth
 
+open System
 open FsUnit
 open Xunit
 open BikeHackers.Components
@@ -134,6 +135,38 @@ let ``Encode.dropHandleBar should work for a round-trip`` () =
 
   let decoded =
     Decode.fromString Decode.dropHandleBar encoded
+    |> Result.get
+
+  decoded |> should equal x
+
+[<Fact>]
+let ``Encode.tyre should work for a round-trip`` () =
+  let x =
+    {
+      ID = Guid.Parse "6993be65-008d-409f-8880-1311c6b9886e"
+      ManufacturerCode = "pirelli"
+      ManufacturerProductCode = None
+      Name = "Cinturato Gravel M"
+      Sizes = [
+        {
+          ManufacturerProductCode = None
+          BeadSeatDiameter = 622
+          Width = 45
+          TreadColor = "black"
+          SidewallColor = "brown"
+          Weight = Some 570
+          Type = Tubeless
+          Tpi = Some 127
+        }
+      ]
+    }
+
+  let encoded =
+    Encode.tyre x
+    |> Encode.toString 2
+
+  let decoded =
+    Decode.fromString Decode.tyre encoded
     |> Result.get
 
   decoded |> should equal x
