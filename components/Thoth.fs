@@ -334,6 +334,7 @@ module Decode =
     Decode.object
       (fun get ->
         {
+          ID = get.Required.Field "id" Decode.guid
           ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
           ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
           Name = get.Required.Field "name" Decode.string
