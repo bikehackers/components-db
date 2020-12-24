@@ -8,7 +8,8 @@
       "bsd": 622,
       "width": 40,
       "tpi": 120,
-      "colors": [ "black" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
       "type": "tubeless"
     }
   ]

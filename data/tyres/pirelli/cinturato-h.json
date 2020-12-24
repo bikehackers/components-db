@@ -6,7 +6,8 @@
     {
       "bsd": 622,
       "width": 45,
-      "colors": [ "black", "brown" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
       "tpi": 127,
       "weight": 570,
       "type": "tubeless"
@@ -14,7 +15,8 @@
     {
       "bsd": 622,
       "width": 40,
-      "colors": [ "black", "brown" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
       "tpi": 127,
       "weight": 500,
       "type": "tubeless"
@@ -22,7 +24,8 @@
     {
       "bsd": 622,
       "width": 35,
-      "colors": [ "black", "brown" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
       "tpi": 127,
       "weight": 430,
       "type": "tubeless"
@@ -30,7 +33,8 @@
     {
       "bsd": 584,
       "width": 45,
-      "colors": [ "black", "brown" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
       "tpi": 127,
       "weight": 520,
       "type": "tubeless"
@@ -38,7 +42,53 @@
     {
       "bsd": 584,
       "width": 50,
-      "colors": [ "black", "brown" ],
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 127,
+      "weight": 550,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 622,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "tpi": 127,
+      "weight": 570,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "tpi": 127,
+      "weight": 500,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "tpi": 127,
+      "weight": 430,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 584,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "tpi": 127,
+      "weight": 520,
+      "type": "tubeless"
+    },
+    {
+      "bsd": 584,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "brown",
       "tpi": 127,
       "weight": 550,
       "type": "tubeless"

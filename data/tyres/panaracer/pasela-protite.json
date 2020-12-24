@@ -1,28 +1,34 @@
 {
   "id": "f7b1509a-40bf-4689-868e-78077f55c79f",
   "manufacturerCode": "panaracer",
-  "name": "Pasela",
+  "name": "Pasela ProTite",
   "sizes": [
     {
       "manufacturerProductCode": "PA700PASF617",
       "bsd": 559,
       "width": 42,
-      "colors": [ "amber-wall" ],
-      "type": "clincher"
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
     },
     {
       "manufacturerProductCode": "PA700PAS15",
       "bsd": 559,
       "width": 37,
-      "colors": [ "amber-wall" ],
-      "type": "clincher"
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
     },
     {
       "manufacturerProductCode": "PA700PAS12",
       "bsd": 559,
       "width": 32,
-      "colors": [ "amber-wall" ],
-      "type": "clincher"
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
     }
   ]
 }
