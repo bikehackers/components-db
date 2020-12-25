@@ -185,6 +185,12 @@ type Tyre =
 
 module WheelBsd =
 
+  let toMillimeters (bsd : WheelBsd) =
+    match bsd with
+    | W26 -> 559
+    | W650B -> 584
+    | W700C -> 622
+
   let fromMillimeters (x : int) =
     match x with
     | 622 -> Some W700C
