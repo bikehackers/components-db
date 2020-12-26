@@ -1,0 +1,17 @@
+{
+  "id": "9ec9c5d4-6b53-4f40-a120-e75c8378e663",
+  "manufacturerCode": "challenge",
+  "name": "Getaway",
+  "sizes": [
+    {
+      "manufacturerProductCode": "00570",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 260,
+      "weight": 460,
+      "type": "tubeless"
+    }
+  ]
+}

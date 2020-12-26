@@ -1,0 +1,27 @@
+{
+  "id": "c2dfef38-e4a3-4341-b8a6-27f8da60d2d5",
+  "manufacturerCode": "challenge",
+  "name": "Paris-Roubaix Open Pro",
+  "sizes": [
+    {
+      "manufacturerProductCode": "00512",
+      "bsd": 622,
+      "width": 27,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 300,
+      "weight": 285,
+      "type": "clincher"
+    },
+    {
+      "manufacturerProductCode": "00513",
+      "bsd": 622,
+      "width": 27,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 300,
+      "weight": 285,
+      "type": "clincher"
+    }
+  ]
+}
