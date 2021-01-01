@@ -1,0 +1,68 @@
+{
+  "id": "f8a87619-7fdd-40e5-aaff-977b0c544f9a",
+  "manufacturerCode": "ultradynamico",
+  "manufacturerProductCode": "null",
+  "name": "Rose",
+  "sizes": [
+  	{
+      "name": "Race",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "grey",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "name": "Race",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "grey",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "name": "JFF",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 515,
+      "type": "tubeless"
+    },
+    {
+      "name": "JFF",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 485,
+      "type": "tubeless"
+    },
+    {
+      "name": "Robusto",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 540,
+      "type": "tubeless"
+    },
+    {
+      "name": "Robusto",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 495,
+      "type": "tubeless"
+    },
+
+    

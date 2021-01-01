@@ -1,0 +1,66 @@
+{
+  "id": "7a4754b6-4900-4bde-a508-9046af23c006",
+  "manufacturerCode": "ultradynamico",
+  "manufacturerProductCode": "null",
+  "name": "Cava",
+  "sizes": [
+  	{
+      "name": "Race",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "grey",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "name": "Race",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "grey",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 445,
+      "type": "tubeless"
+    },
+	{
+      "name": "Race",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 510,
+      "type": "tubeless"
+    },
+    {
+      "name": "Race",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "name": "Robusto",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 520,
+      "type": "tubeless"
+    },
+    {
+      "name": "Robusto",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 475,
+      "type": "tubeless"
+    },
