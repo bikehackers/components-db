@@ -1,0 +1,35 @@
+{
+  "id": "b9b44742-1d77-4812-837c-958c883175c4",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GRAVK",
+  "name": "Gravel King",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700PASF617",
+      "bsd": 559,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
+    },
+    {
+      "manufacturerProductCode": "PA700PAS15",
+      "bsd": 559,
+      "width": 37,
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
+    },
+    {
+      "manufacturerProductCode": "PA700PAS12",
+      "bsd": 559,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "amber",
+      "type": "clincher",
+      "tpi": 66
+    }
+  ]
+}
