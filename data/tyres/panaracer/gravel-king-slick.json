@@ -31,9 +31,9 @@
       "treadColor": "black",
       "sidewallColor": "black",
       "type": "tubeless",
-      "tpi": ,
+      "tpi": null,
       "weight": 240
-    }
+    },
     {
       "manufacturerProductCode": "PA700GRAVK23FBC",
       "bsd": 622,
@@ -43,7 +43,7 @@
       "type": "tubeless",
       "tpi": 126,
       "weight": 220
-    }
+    },
     {
       "manufacturerProductCode": "PA700GRAVK28FBC",
       "bsd": 622,
@@ -53,7 +53,7 @@
       "type": "tubeless",
       "tpi": 126,
       "weight": 270
-    }
+    },
     {
       "manufacturerProductCode": "PA700GRAVK26FBC",
       "bsd": 622,
@@ -61,7 +61,7 @@
       "treadColor": "black",
       "sidewallColor": "brown",
       "type": "tubeless",
-      "tpi": ,
+      "tpi": null,
       "weight": 240
     }
   ]
