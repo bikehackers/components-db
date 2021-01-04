@@ -1,0 +1,68 @@
+{
+  "id": "8d5ad328-0301-4177-9959-4997e8c6f31e",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GKPTLC",
+  "name": "Gravel King Slick+ TLC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GKP32B",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 330
+    },
+    {
+      "manufacturerProductCode": "PA700GKP35B",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 350
+    },
+    {
+      "manufacturerProductCode": "PA700GKP38B",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 360
+    },
+        {
+      "manufacturerProductCode": "PA700GKP32BC",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 330
+    },
+    {
+      "manufacturerProductCode": "PA700GKP35BC",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 350
+    },
+    {
+      "manufacturerProductCode": "PA700GKP38BC",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 360
+    },
+  ]
+}
