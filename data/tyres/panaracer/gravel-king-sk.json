@@ -1,0 +1,18 @@
+{
+  "id": "dcc9f288-b846-4a50-8ec6-355fb91295ce",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GSK",
+  "name": "Gravel King SK",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GSK26FB",
+      "bsd": 622,
+      "width": 26,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 270, 
+    }
+  ]
+}
