@@ -1,0 +1,28 @@
+{
+  "id": "b594e018-3ceb-40db-a92e-7b8f019dcf0b",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GKSSP",
+  "name": "Gravel King Semi Slick Plus",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GKSSP28B",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 340
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP28BC",
+      "bsd": 622,
+      "width":28,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 340
+    },
+  ]
+}
