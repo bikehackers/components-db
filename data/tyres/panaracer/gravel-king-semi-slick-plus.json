@@ -10,7 +10,7 @@
       "width": 28,
       "treadColor": "black",
       "sidewallColor": "black",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": null,
       "weight": 340
     },
@@ -20,7 +20,7 @@
       "width":28,
       "treadColor": "black",
       "sidewallColor": "brown",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": null,
       "weight": 340
     },

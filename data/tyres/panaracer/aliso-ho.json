@@ -1,0 +1,48 @@
+{
+  "id": "82a3b2a0-139f-4e8d-8219-88b9dcd35e72",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705ALIT",
+  "name": "Aliso HO",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705ALITFHO274B",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ALITFHO276B",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ALITFHO294B",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ALITFHO296B",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+  ]
+}

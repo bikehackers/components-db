@@ -1,0 +1,38 @@
+{
+  "id": "302a6917-2797-496f-bcb2-706f474ee84a",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705ALI",
+  "name": "Aliso ST",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705ALIF274B",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1030, 
+    },
+    {
+      "manufacturerProductCode": "PA705ALIF276B",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1060, 
+    },
+    {
+      "manufacturerProductCode": "PA705ALIF294B",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1180, 
+    },
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "c7213037-5352-4b0d-854d-9ea29a3ca062",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705ROM",
+  "name": "Romero ST TBC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705ROMF274B",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1060, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMF276B",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1090, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMF294B",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1200, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMF296B",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 1300, 
+    },
+  ]
+}
