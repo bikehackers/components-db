@@ -10,7 +10,7 @@
       "width": 23,
       "treadColor": "black",
       "sidewallColor": "black",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": 126,
       "weight": 220
     },
@@ -20,7 +20,7 @@
       "width":28,
       "treadColor": "black",
       "sidewallColor": "black",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": 120,
       "weight": 270
     },
@@ -30,8 +30,9 @@
       "width": 26,
       "treadColor": "black",
       "sidewallColor": "black",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": null,
+
       "weight": 240
     },
     {
@@ -40,7 +41,7 @@
       "width": 23,
       "treadColor": "black",
       "sidewallColor": "brown",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": 126,
       "weight": 220
     },
@@ -50,7 +51,7 @@
       "width": 28,
       "treadColor": "black",
       "sidewallColor": "brown",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": 126,
       "weight": 270
     },
@@ -60,7 +61,7 @@
       "width": 26,
       "treadColor": "black",
       "sidewallColor": "brown",
-      "type": "tubeless",
+      "type": "clincher",
       "tpi": null,
       "weight": 240
     }

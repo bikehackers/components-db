@@ -1,0 +1,48 @@
+{
+  "id": "0b95ab50-3ffe-41e3-b8a7-17639dd79168",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GKP",
+  "name": "Gravel King Slick+",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GKP28B",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 300
+    },
+    {
+      "manufacturerProductCode": "PA700GKP26B",
+      "bsd": 622,
+      "width":26,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 260
+    },
+    {
+      "manufacturerProductCode": "PA700GKP28BC",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 300
+    },
+    {
+      "manufacturerProductCode": "PA700GKP26BC",
+      "bsd": 622,
+      "width":26,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 260
+    },
+  ]
+}

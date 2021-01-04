@@ -1,0 +1,48 @@
+{
+  "id": "49a505bb-e276-43f2-b146-5a2cc4e527f3",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705FIR2F5TLC",
+  "name": "Fire XC Pro",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705FIR2FBTLC",
+      "bsd": 559,
+      "width": 53,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705FIR2F5TLC",
+      "bsd": 559,
+      "width": 53,
+      "treadColor": "black",
+      "sidewallColor": "red",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705FI1TLC",
+      "bsd": 559,
+      "width": 53,
+      "treadColor": "black",
+      "sidewallColor": "blue",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705FI9TLC",
+      "bsd": 559,
+      "width": 53,
+      "treadColor": "black",
+      "sidewallColor": "yellow",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+  ]
+}

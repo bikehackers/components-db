@@ -1,28 +1,28 @@
 {
-  "id": "86b62035-d069-41a2-b7ef-557b9ca88ee2",
+  "id": "b594e018-3ceb-40db-a92e-7b8f019dcf0b",
   "manufacturerCode": "panaracer",
-  "manufacturerProductCode": "PA700GKSS",
-  "name": "Gravel King Semi Slick",
+  "manufacturerProductCode": "PA700GKSSP",
+  "name": "Gravel King Semi Slick+",
   "sizes": [
     {
-      "manufacturerProductCode": "PA700GKSS28B",
+      "manufacturerProductCode": "PA700GKSSP28B",
       "bsd": 622,
       "width": 28,
       "treadColor": "black",
       "sidewallColor": "black",
       "type": "clincher",
-      "tpi": 120,
-      "weight": 310
+      "tpi": null,
+      "weight": 340
     },
     {
-      "manufacturerProductCode": "PA700GKSS28BC",
+      "manufacturerProductCode": "PA700GKSSP28BC",
       "bsd": 622,
       "width":28,
       "treadColor": "black",
       "sidewallColor": "brown",
       "type": "clincher",
-      "tpi": 120,
-      "weight": 310
+      "tpi": null,
+      "weight": 340
     },
   ]
 }

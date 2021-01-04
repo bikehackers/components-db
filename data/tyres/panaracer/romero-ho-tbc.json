@@ -1,0 +1,48 @@
+{
+  "id": "10a6473e-fb42-4d6a-80e1-fe39b79d4cc0",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705ROMT",
+  "name": "Romero HO TBC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705ROMTFHO274B",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMTFHO276B",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMTFHO294B",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+    {
+      "manufacturerProductCode": "PA705ROMTFHO296B",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null, 
+    },
+  ]
+}

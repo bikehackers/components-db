@@ -1,0 +1,128 @@
+{
+  "id": "f9079093-07a4-4ef1-a06e-f95140222aa9",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GRAVKTLC",
+  "name": "Gravel King Slick TLC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GR32FB",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA700GRAVK35FB",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA700GRAVK38FB",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK15FB",
+      "bsd": 584,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK17FB",
+      "bsd": 584,
+      "width":44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK19FB",
+      "bsd": 584,
+      "width":48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA700GRAVK32FBC",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA700GRAVK35FBC",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA700GRAVK38FBC",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK15FBC",
+      "bsd": 584,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK17FBC",
+      "bsd": 584,
+      "width":44,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+    {
+      "manufacturerProductCode": "PA705GRK19FBC",
+      "bsd": 584,
+      "width":48,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": null
+    },
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "b8b30a16-b54c-4a71-96f4-521188c06ff3",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GKAC",
+  "name": "Gravel King AC TLC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GKAC35B",
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 360, 
+    },
+    {
+      "manufacturerProductCode": "PA700GKAC33B",
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 300, 
+    },
+    {
+      "manufacturerProductCode": "PA700GKAC35BC",
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 360, 
+    },
+    {
+      "manufacturerProductCode": "PA700GKAC33BC",
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 300, 
+    }
+  ]
+}

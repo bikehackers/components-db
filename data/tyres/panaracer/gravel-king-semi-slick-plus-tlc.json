@@ -1,0 +1,108 @@
+{
+  "id": "aa785dca-9eb7-4721-a303-f677449c118e",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700GKSSP",
+  "name": "Gravel King Semi Slick+ TLC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700GKSSP32B",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 370
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP35B",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 420
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP38B",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 450
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP19B",
+      "bsd": 622,
+      "width":48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 590
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP43B",
+      "bsd": 622,
+      "width":43,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 530
+    },
+        {
+      "manufacturerProductCode": "PA700GKSSP32BC",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 370
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP35BC",
+      "bsd": 622,
+      "width":35,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 420
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP38BC",
+      "bsd": 622,
+      "width":38,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 450
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP19BC",
+      "bsd": 622,
+      "width":48,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 590
+    },
+    {
+      "manufacturerProductCode": "PA700GKSSP43BC",
+      "bsd": 622,
+      "width":43,
+      "treadColor": "black",
+      "sidewallColor": "brown",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 530
+    },
+  ]
+}
