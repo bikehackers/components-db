@@ -1,11 +1,11 @@
 {
   "id": "9defdc29-14df-4b3c-811b-5550f7030a41",
   "manufacturerCode": "sim-works",
-  "manufacturerProductCode": "",
+  "manufacturerProductCode": null,
   "name": "Volummy",
   "sizes": [
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 28,
       "treadColor": "black",
@@ -15,7 +15,7 @@
       "weight": null, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 32,
       "treadColor": "black",
@@ -25,7 +25,7 @@
       "weight": 454, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 38,
       "treadColor": "black",
@@ -35,7 +35,7 @@
       "weight": 599, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 38,
       "treadColor": "black",
@@ -45,7 +45,7 @@
       "weight": 552, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 44,
       "treadColor": "black",
@@ -55,7 +55,7 @@
       "weight": 588, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 48,
       "treadColor": "black",

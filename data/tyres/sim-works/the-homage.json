@@ -1,11 +1,11 @@
 {
   "id": "6f1d787c-3c83-4f9a-9dbb-493104798326",
   "manufacturerCode": "sim-works",
-  "manufacturerProductCode": "",
+  "manufacturerProductCode": null,
   "name": "The Homage",
   "sizes": [
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 43,
       "treadColor": "beige",
@@ -15,7 +15,7 @@
       "weight": 560, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 559,
       "width": 50,
       "treadColor": "green",
@@ -25,7 +25,7 @@
       "weight": 550, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 559,
       "width": 50,
       "treadColor": "beige",
@@ -35,7 +35,7 @@
       "weight": 550, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 559,
       "width": 50,
       "treadColor": "burgundy",
@@ -45,7 +45,7 @@
       "weight": 550, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 559,
       "width": 50,
       "treadColor": "black",
@@ -55,7 +55,7 @@
       "weight": 550, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 43,
       "treadColor": "green",
@@ -65,7 +65,7 @@
       "weight": 530, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 43,
       "treadColor": "green",
@@ -75,7 +75,7 @@
       "weight": 500, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 43,
       "treadColor": "black",
@@ -85,7 +85,7 @@
       "weight": 530, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 43,
       "treadColor": "black",
@@ -95,7 +95,7 @@
       "weight": 520, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 43,
       "treadColor": "black",
@@ -115,7 +115,7 @@
       "weight": 500, 
     },
      {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 622,
       "width": 43,
       "treadColor": "black",
@@ -125,7 +125,7 @@
       "weight": 560, 
     },
     {
-      "manufacturerProductCode": "",
+      "manufacturerProductCode": null,
       "bsd": 584,
       "width": 43,
       "treadColor": "black",
