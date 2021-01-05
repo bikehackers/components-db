@@ -1,0 +1,28 @@
+{
+  "id": "c5291ac6-e5a0-4db2-b614-cd248d5a4945",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA700RACE4D",
+  "name": "Race D Evo 4",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700RACE4D25B",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 240, 
+    },
+    {
+      "manufacturerProductCode": "PA700RACE4D28B",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 260, 
+    },
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bf482ce5-a34e-4dc2-86d1-8b5fbcb89210",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode":"PA700TSERF",
+  "name": "T-Serv PT",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA700TSERF25B",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 250
+    },
+    {
+      "manufacturerProductCode": "PA700TSERF28B",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 270
+    },
+    {
+      "manufacturerProductCode": "PA700TSERF32B",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 350
+    },
+    {
+      "manufacturerProductCode": "PA700TSERF35B",
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": 440
+    },
+    {
+      "manufacturerProductCode": "PA700TSERF717B",
+      "bsd": 584,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "clincher",
+      "tpi": null,
+      "weight": null
+    },
+  ]
+}
