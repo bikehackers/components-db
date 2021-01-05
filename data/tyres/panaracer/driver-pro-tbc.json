@@ -1,0 +1,38 @@
+{
+  "id": "c161e614-d5bb-4c39-8875-bdf9ea8a8498",
+  "manufacturerCode": "panaracer",
+  "manufacturerProductCode": "PA705DRIVE",
+  "name": "Driver Pro TBC",
+  "sizes": [
+    {
+      "manufacturerProductCode": "PA705DRPF274FB",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 790, 
+    },
+    {
+      "manufacturerProductCode": "PA705DRPF276FB",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 810, 
+    },
+    {
+      "manufacturerProductCode": "PA705DRPF294FB",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 850, 
+    },
+  ]
+}

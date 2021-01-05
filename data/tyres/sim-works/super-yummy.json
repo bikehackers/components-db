@@ -1,0 +1,38 @@
+{
+  "id": "80b04b1a-e305-485b-b44e-e600284b06f0",
+  "manufacturerCode": "sim-works",
+  "manufacturerProductCode": null,
+  "name": "Super Yummy",
+  "sizes": [
+    {
+      "manufacturerProductCode": null,
+      "bsd": 559,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 788, 
+    },
+    {
+      "manufacturerProductCode": null,
+      "bsd": 584,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 825, 
+    },
+    {
+      "manufacturerProductCode": null,
+      "bsd": 622,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "type": "tubeless",
+      "tpi": null,
+      "weight": 900, 
+    },
+  ]
+}
