@@ -162,6 +162,14 @@ type TyreType =
   | Tubeless
   | Tubular
 
+type TyreApplication =
+  | Track
+  | Road
+  | RoughRoad
+  | LightGravel
+  | RoughGravel
+  | Singletrack
+
 type TyreSize =
   {
     ManufacturerProductCode : string option
@@ -181,6 +189,7 @@ type Tyre =
     ManufacturerProductCode : string option
     Name : string
     Sizes : TyreSize list
+    Application : (Set<TyreApplication>) option
   }
 
 module WheelBsd =

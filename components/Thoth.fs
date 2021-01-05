@@ -11,6 +11,12 @@ open Thoth.Json.Net
 
 module Extras =
 
+  module Decode =
+
+    let set decoder : Decoder<Set<_>> =
+      Decode.list decoder
+      |> Decode.map Set.ofList
+
   module Encode =
 
     let orNone (enc : Encoder<_>) : Encoder<_> =
@@ -124,6 +130,16 @@ module Encode =
     | Tubular -> "tubular"
     >> Encode.string
 
+  let tyreApplication : Encoder<TyreApplication> =
+    function
+    | Track -> "track"
+    | Road -> "road"
+    | RoughRoad -> "rough-road"
+    | LightGravel -> "light-gravel"
+    | RoughGravel -> "rough-gravel"
+    | Singletrack -> "singletrack"
+    >> Encode.string
+
   let tyreSize : Encoder<TyreSize> =
     (fun x ->
       Encode.object
@@ -147,9 +163,12 @@ module Encode =
           "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
           "name", Encode.string x.Name
           "sizes", Encode.list (x.Sizes |> List.map tyreSize)
+          "application", Encode.orNone Encode.list (x.Application |> Option.map (Seq.toList >> List.map tyreApplication))
         ])
 
 module Decode =
+
+  open Extras
 
   let private tryParseInt (x : string) =
     match Int32.TryParse x with
@@ -350,6 +369,19 @@ module Decode =
       | _ -> Decode.fail (sprintf "%s is not a valid tyre type" x)
     )
 
+  let tyreApplication : Decoder<TyreApplication> =
+    Decode.string
+    |> Decode.andThen (fun x ->
+      match x with
+      | "track" -> Decode.succeed TyreApplication.Track
+      | "road" -> Decode.succeed TyreApplication.Road
+      | "rough-road" -> Decode.succeed TyreApplication.RoughRoad
+      | "light-gravel" -> Decode.succeed TyreApplication.LightGravel
+      | "rough-gravel" -> Decode.succeed TyreApplication.RoughGravel
+      | "singletrack" -> Decode.succeed TyreApplication.Singletrack
+      | _ -> Decode.fail (sprintf "%s is not a valid tyre application" x)
+    )
+
   let tyreSize : Decoder<TyreSize> =
     Decode.object
       (fun get ->
@@ -373,6 +405,7 @@ module Decode =
           ManufacturerCode = get.Required.Field "manufacturerCode" Decode.string
           ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
           Name = get.Required.Field "name" Decode.string
+          Application = get.Optional.Field "application" (Decode.set tyreApplication)
           Sizes = get.Required.Field "sizes" (Decode.list tyreSize)
         }
       )

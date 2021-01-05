@@ -2,6 +2,7 @@
   "id": "6993be65-008d-409f-8880-1311c6b9886e",
   "manufacturerCode": "pirelli",
   "name": "Cinturato Gravel M",
+  "application": [ "rough-gravel" ],
   "sizes": [
     {
       "bsd": 622,
