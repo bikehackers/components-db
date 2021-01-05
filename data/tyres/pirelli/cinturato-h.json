@@ -2,6 +2,7 @@
   "id": "5443eec9-9306-4769-80b5-4a0eef12ef3f",
   "manufacturerCode": "pirelli",
   "name": "Cinturato Gravel H",
+  "application": [ "light-gravel" ],
   "sizes": [
     {
       "bsd": 622,
