@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA705FIR2F5TLC",
   "name": "Fire XC Pro",
+  "application": ["singletrack"],
   "sizes": [
     {
       "manufacturerProductCode": "PA705FIR2FBTLC",

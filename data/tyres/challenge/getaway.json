@@ -2,6 +2,7 @@
   "id": "9ec9c5d4-6b53-4f40-a120-e75c8378e663",
   "manufacturerCode": "challenge",
   "name": "Getaway",
+  "application": ["rough-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "00570",

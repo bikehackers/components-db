@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GKEXTP",
   "name": "Gravel King EXT+ TLC",
+  "application": ["rough-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GKEXTP35B",

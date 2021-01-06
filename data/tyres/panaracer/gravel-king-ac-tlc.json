@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GKAC",
   "name": "Gravel King AC TLC",
+  "application": ["rough-road", "light-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GKAC35B",

@@ -2,6 +2,7 @@
   "id": "841e5b08-50e3-48a3-ab9b-a378260a8027",
   "manufacturerCode": "ritchey",
   "name": "Speedmax WCS",
+   "application": ["light-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "46550817006",
@@ -10,7 +11,8 @@
       "tpi": 120,
       "treadColor": "black",
       "sidewallColor": "black",
-      "type": "tubeless"
+      "type": "tubeless",
+      "weight": 514,
     }
   ]
 }

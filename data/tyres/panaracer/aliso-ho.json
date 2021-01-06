@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA705ALIT",
   "name": "Aliso HO",
+  "application": ["singletrack"],
   "sizes": [
     {
       "manufacturerProductCode": "PA705ALITFHO274B",

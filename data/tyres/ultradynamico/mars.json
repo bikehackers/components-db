@@ -3,6 +3,7 @@
   "manufacturerCode": "ultradynamico",
   "manufacturerProductCode": null,
   "name": "Mars",
+  "application": ["light-gravel", "rough-gravel"],
   "sizes": [
   	{
       "name": "Race",

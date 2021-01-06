@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GSK",
   "name": "Gravel King SK",
+  "application": ["rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GSK26FB",

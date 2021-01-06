@@ -3,6 +3,7 @@
   "manufacturerCode": "sim-works",
   "manufacturerProductCode": null,
   "name": "Volummy",
+  "application": ["road", "rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": null,

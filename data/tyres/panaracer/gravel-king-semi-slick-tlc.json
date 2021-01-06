@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GKSSTLC",
   "name": "Gravel King Semi Slick TLC",
+  "application": ["light-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GKSS32B",

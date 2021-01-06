@@ -3,6 +3,7 @@
   "manufacturerCode": "rene-herse",
   "manufacturerProductCode": "hurricane-ridge-tc",
   "name": "Hurricane Ridge",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
   "sizes": [
     {
       "name": "Standard",

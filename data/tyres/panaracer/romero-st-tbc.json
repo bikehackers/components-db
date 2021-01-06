@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA705ROM",
   "name": "Romero ST TBC",
+  "application": ["singletrack"],
   "sizes": [
     {
       "manufacturerProductCode": "PA705ROMF274B",

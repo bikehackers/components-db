@@ -3,6 +3,7 @@
   "manufacturerCode": "teravail",
   "manufacturerProductCode": "00570",
   "name": "Rutland",
+  "application": ["light-gravel", "rough-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": "TR2669",
