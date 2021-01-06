@@ -147,6 +147,7 @@ let ``Encode.tyre should work for a round-trip`` () =
       ManufacturerCode = "pirelli"
       ManufacturerProductCode = None
       Name = "Cinturato Gravel M"
+      Application = Some (Set.ofSeq [ RoughGravel ])
       Sizes = [
         {
           ManufacturerProductCode = None
