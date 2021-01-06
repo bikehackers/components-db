@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GRAVKTLC",
   "name": "Gravel King Slick TLC",
+  "application": ["road", "rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GR32FB",

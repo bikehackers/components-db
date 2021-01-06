@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GKSS",
   "name": "Gravel King Semi Slick",
+  "application": ["light-gravel", "rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GKSS28B",

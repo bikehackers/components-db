@@ -3,6 +3,7 @@
   "manufacturerCode": "ultradynamico",
   "manufacturerProductCode": null,
   "name": "Rose",
+  "application": ["rough-road", "light-gravel"],
   "sizes": [
   	{
       "name": "Race",

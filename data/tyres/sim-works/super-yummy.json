@@ -3,6 +3,7 @@
   "manufacturerCode": "sim-works",
   "manufacturerProductCode": null,
   "name": "Super Yummy",
+  "application": ["light-gravel", "rough-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": null,

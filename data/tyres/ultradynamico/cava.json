@@ -3,6 +3,7 @@
   "manufacturerCode": "ultradynamico",
   "manufacturerProductCode": null,
   "name": "Cava",
+  "application": ["rough-road"],
   "sizes": [
   	{
       "name": "Race",

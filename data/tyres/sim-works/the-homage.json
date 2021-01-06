@@ -3,6 +3,7 @@
   "manufacturerCode": "sim-works",
   "manufacturerProductCode": null,
   "name": "The Homage",
+  "application": ["light-gravel"],
   "sizes": [
     {
       "manufacturerProductCode": null,

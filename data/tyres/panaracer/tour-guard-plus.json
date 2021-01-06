@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700TOURP",
   "name": "Tour Guard Plus",
+  "application": ["road", "rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700TOURGP25B",

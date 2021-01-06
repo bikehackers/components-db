@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA705ALI",
   "name": "Aliso ST",
+  "application": ["singletrack"],
   "sizes": [
     {
       "manufacturerProductCode": "PA705ALIF274B",

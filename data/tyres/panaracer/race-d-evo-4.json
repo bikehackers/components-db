@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700RACE4D",
   "name": "Race D Evo 4",
+  "application": ["road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700RACE4D25B",

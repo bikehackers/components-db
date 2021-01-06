@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA700GRAVK",
   "name": "Gravel King Slick",
+  "application": ["road", "rough-road"],
   "sizes": [
     {
       "manufacturerProductCode": "PA700GRAVK23FB",

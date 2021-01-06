@@ -3,6 +3,7 @@
   "manufacturerCode": "panaracer",
   "manufacturerProductCode": "PA705ROMT",
   "name": "Romero HO TBC",
+  "application": ["singletrack"],
   "sizes": [
     {
       "manufacturerProductCode": "PA705ROMTFHO274B",
