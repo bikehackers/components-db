@@ -1,0 +1,49 @@
+{
+  "id": "aa041a8b-6b8d-4be0-aed4-4284d57221e8",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "steilacoom-tc",
+  "name": "Steilacoom TC",
+  "application": ["rough-road", "light-gravel", "rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 445,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 388,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 388,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 445,
+      "type": "tubeless"
+    },
+  ]
+}
