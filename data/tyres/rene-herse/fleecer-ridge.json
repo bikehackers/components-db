@@ -1,0 +1,49 @@
+{
+  "id": "1907c57f-c944-43e3-97ea-6594ed987ca9",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "fleecer-ridge-tc",
+  "name": "Fleecer Ridge",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 650,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 595,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 665,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance Plus",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 700,
+      "type": "tubeless"
+    }
+  ]
+}

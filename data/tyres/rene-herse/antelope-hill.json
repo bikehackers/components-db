@@ -1,0 +1,59 @@
+{
+  "id": "27ba6ac3-bed8-4eba-8418-91c957c7aa14",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "antelope-hill-tc",
+  "name": "Antelope Hill TC",
+  "application": ["rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 535,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 535,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance Plus",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 570,
+      "type": "tubeless"
+    },
+  ]
+}
