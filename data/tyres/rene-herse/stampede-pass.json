@@ -1,0 +1,39 @@
+ {
+  "id": "bb19c3ab-3a6c-4236-9056-68645d466718",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "stampede-pass",
+  "name": "Stampede Pass",
+  "application": ["road", "rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 291,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 254,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 254,
+      "type": "clincher"
+    },
+  ]
+}

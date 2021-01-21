@@ -1,38 +1,48 @@
-{
-  "id": "aa041a8b-6b8d-4be0-aed4-4284d57221e8",
+ {
+  "id": "5e31cf4f-f7ad-4e84-bdc5-3962b5eb38ad",
   "manufacturerCode": "rene-herse",
-  "manufacturerProductCode": "oracle-ridge-tc",
-  "name": "Oracle Ridge",
-  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "manufacturerProductCode": "bon-jon-pass-tc",
+  "name": "Bon Jon Pass TC",
+  "application": ["road", "rough-road", "light-gravel"],
   "sizes": [
     {
       "name": "Standard",
       "bsd": 622,
-      "width": 48,
+      "width": 35,
       "treadColor": "black",
       "sidewallColor": "tan",
       "tpi": null,
-      "weight": 545,
+      "weight": 355,
       "type": "tubeless"
     },
     {
       "name": "Extralight",
       "bsd": 622,
-      "width": 48,
+      "width": 35,
       "treadColor": "black",
       "sidewallColor": "tan",
       "tpi": null,
-      "weight": 515,
+      "weight": 303,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 303,
       "type": "tubeless"
     },
     {
       "name": "Endurance",
       "bsd": 622,
-      "width": 48,
+      "width": 35,
       "treadColor": "black",
       "sidewallColor": "dark-tan",
       "tpi": null,
-      "weight": 545,
+      "weight": 355,
       "type": "tubeless"
     },
   ]

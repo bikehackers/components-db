@@ -1,0 +1,39 @@
+ {
+  "id": "d0803f19-e142-43d2-9473-dfe3f642a75a",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "cayuse-pass",
+  "name": "Cayuse Pass",
+  "application": ["road"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 26,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 222,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 26,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 183,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 26,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 183,
+      "type": "clincher"
+    },
+  ]
+}
