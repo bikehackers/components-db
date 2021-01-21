@@ -1,38 +1,48 @@
-{
-  "id": "aa041a8b-6b8d-4be0-aed4-4284d57221e8",
+ {
+  "id": "2758688f-a195-4b4a-a2c4-7ca62276e589",
   "manufacturerCode": "rene-herse",
-  "manufacturerProductCode": "oracle-ridge-tc",
-  "name": "Oracle Ridge",
-  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "manufacturerProductCode": "barlow-pass-tc",
+  "name": "Barlow Pass TC",
+  "application": ["road", "rough-road", "light-gravel"],
   "sizes": [
     {
       "name": "Standard",
       "bsd": 622,
-      "width": 48,
+      "width": 38,
       "treadColor": "black",
       "sidewallColor": "tan",
       "tpi": null,
-      "weight": 545,
+      "weight": 385,
       "type": "tubeless"
     },
     {
       "name": "Extralight",
       "bsd": 622,
-      "width": 48,
+      "width": 38,
       "treadColor": "black",
       "sidewallColor": "tan",
       "tpi": null,
-      "weight": 515,
+      "weight": 350,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 350,
       "type": "tubeless"
     },
     {
       "name": "Endurance",
       "bsd": 622,
-      "width": 48,
+      "width": 38,
       "treadColor": "black",
       "sidewallColor": "dark-tan",
       "tpi": null,
-      "weight": 545,
+      "weight": 385,
       "type": "tubeless"
     },
   ]

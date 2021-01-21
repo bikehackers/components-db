@@ -1,0 +1,59 @@
+ {
+  "id": "f1b6f968-85ef-440e-99b3-0f1ecc8b6d62",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "snoqualmie-pass-tc",
+  "name": "Snoqualmie Pass TC",
+  "application": ["rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 375,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 330,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 330,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 425,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance Plus",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 445,
+      "type": "tubeless"
+    },
+  ]
+}

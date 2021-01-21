@@ -1,0 +1,39 @@
+ {
+  "id": "270fe754-5c6a-4cdb-8f01-d78dafabd16c",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "chinook-pass-tc",
+  "name": "Chinook Pass TC",
+  "application": ["road", "rough-road"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 248,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 225,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 225,
+      "type": "clincher"
+    },
+  ]
+}
