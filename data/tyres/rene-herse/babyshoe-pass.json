@@ -1,0 +1,49 @@
+{
+  "id": "f1d6c6c7-dcd9-4cf4-ab0a-fc9fa59ccc9b",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "babyshoe-pass-tc",
+  "name": "Babyshoe Pass",
+  "application": ["rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 410,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 373,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 373,
+      "type": "tubeless"
+    },
+        {
+      "name": "Endurance",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 410,
+      "type": "tubeless"
+    },
+  ]
+}

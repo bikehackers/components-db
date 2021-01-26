@@ -1,0 +1,39 @@
+{
+  "id": "80d4b460-fbfc-48ef-9428-1e970c7df03c",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "naches-pass-tc",
+  "name": "Naches Pass",
+  "application": ["road", "rough-road"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 559,
+      "width": 46,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 350,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 46,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 300,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 46,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 300,
+      "type": "tubeless"
+    },
+  ]
+}

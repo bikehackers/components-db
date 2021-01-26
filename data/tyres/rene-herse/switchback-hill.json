@@ -1,0 +1,49 @@
+{
+  "id": "bdd09bbd-53f8-4afc-b8c9-44d649e654af",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "switchback-hill-tc",
+  "name": "Switchback Hill",
+  "application": ["rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 441,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 413,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 413,
+      "type": "tubeless"
+    },
+        {
+      "name": "Endurance",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 441,
+      "type": "tubeless"
+    },
+  ]
+}

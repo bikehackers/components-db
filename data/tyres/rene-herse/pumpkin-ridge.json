@@ -1,0 +1,39 @@
+{
+  "id": "9867211a-9a0f-41f7-be81-84b233133b17",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "pumpkin-ridge-tc",
+  "name": "Pumpkin Ridge",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 480,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 418,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 418,
+      "type": "tubeless"
+    },
+  ]
+}

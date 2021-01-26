@@ -1,0 +1,49 @@
+{
+  "id": "7a8cff16-6f03-45f9-a130-53086f368f24",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "rat-trap-pass-tc",
+  "name": "Rat Trap Pass",
+  "application": ["road", "rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 454,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 418,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 418,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 500,
+      "type": "tubeless"
+    },
+  ]
+}

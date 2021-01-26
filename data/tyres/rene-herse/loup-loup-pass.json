@@ -1,0 +1,39 @@
+{
+  "id": "788de769-c232-4eb5-b78e-e5478c514468",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "loup-loup-pass",
+  "name": "Loup Loup Pass",
+  "application": ["road", "rough-road", "light-gravel"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 584,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 354,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 333,
+      "type": "clincher"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 333,
+      "type": "clincher"
+    },
+  ]
+}

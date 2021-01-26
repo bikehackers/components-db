@@ -1,0 +1,39 @@
+{
+  "id": "9e636668-f62b-4c1f-b218-707449de83ed",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "humptulips-ridge-tc",
+  "name": "Humptulips Ridge",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 525,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 559,
+      "width": 58,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 585,
+      "type": "tubeless"
+    },
+  ]
+}
