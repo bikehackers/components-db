@@ -1,0 +1,19 @@
+{
+  "id": "426d11e5-936a-44c4-ab73-04101b4f80a2",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "elk-pass",
+  "name": "Elk Pass",
+  "application": ["road", "rough-road"],
+  "sizes": [
+    {
+      "name": "Extralight",
+      "bsd": 559,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 178,
+      "type": "clincher"
+    },
+  ]
+}

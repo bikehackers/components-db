@@ -1,0 +1,59 @@
+{
+  "id": "d4a1339b-f85f-4002-9f0a-70551067cb50",
+  "manufacturerCode": "rene-herse",
+  "manufacturerProductCode": "juniper-ridge-tc",
+  "name": "Juniper Ridge",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "name": "Standard",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 455,
+      "type": "tubeless"
+    },
+    {
+      "name": "Extralight",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 455,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "name": "Endurance Plus",
+      "bsd": 584,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "dark-tan",
+      "tpi": null,
+      "weight": 550,
+      "type": "tubeless"
+    },
+  ]
+}
