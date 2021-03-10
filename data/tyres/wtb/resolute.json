@@ -1,0 +1,49 @@
+{
+  "id": "3f02f2b1-2379-4893-9fdc-a6dea2b19859",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Resolute",
+  "application": ["light-gravel", "rough-gravel"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0682",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 440,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0849",
+      "bsd": 584,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 525,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0681",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 460,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0848",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 565,
+      "type": "tubeless"
+    },
+  ]
+}  

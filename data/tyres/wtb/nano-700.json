@@ -1,0 +1,59 @@
+{
+  "id": "9cf2c87e-210d-414f-9ece-3d105e4ea45f",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Nano 700",
+  "application": ["light-gravel", "rough-gravel"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0578",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 530,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0847",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 545,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0692",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 497,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0524",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 470,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0523",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 550,
+      "type": "tubeless"
+    },
+  ]
+}  

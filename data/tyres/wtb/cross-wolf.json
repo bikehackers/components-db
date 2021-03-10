@@ -1,0 +1,19 @@
+{
+  "id": "40de6ba4-f847-4126-94a5-c403d93a9458",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Cross Wolf",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0535",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 392,
+      "type": "tubeless"
+    },
+  ]
+}  
