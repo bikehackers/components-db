@@ -1,0 +1,69 @@
+{
+  "id": "df725889-b821-4039-a01f-588aa76f324b",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Raddler",
+  "application": ["light-gravel", "rough-gravel"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0829",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 505,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0850",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 522,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0830",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 490,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0827",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 526,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0851",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 547,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0828",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 514,
+      "type": "tubeless"
+    },
+  ]
+}  

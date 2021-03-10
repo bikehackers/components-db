@@ -1,0 +1,119 @@
+{
+  "id": "835976db-e51e-48ec-8a81-bde2e8ceb3de",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Byway",
+  "application": ["road","rough-road", "light-gravel"],
+  "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0677",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 535,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0701",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 564,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0839",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 577,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0821",
+      "bsd": 622,
+      "width": 34,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 396,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0822",
+      "bsd": 622,
+      "width": 34,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 394,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0823",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 426,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0824",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 415,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0840",
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 463,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0819",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 499,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0820",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 479,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0841",
+      "bsd": 622,
+      "width": 44,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 120,
+      "weight": 525,
+      "type": "tubeless"
+    },
+  ]
+}  
