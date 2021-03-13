@@ -1,0 +1,19 @@
+{
+  "id": "e80b8dd9-b986-4f66-951b-1475bd65736f",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Trail Boss",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-",
+      "bsd": ,
+      "width": ,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": ,
+      "type": "tubeless"
+    },
+  ]
+}  

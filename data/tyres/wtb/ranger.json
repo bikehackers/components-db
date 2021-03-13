@@ -1,0 +1,74 @@
+{
+  "id": "999cf5a7-37e5-4cc3-946c-9163bc420115",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Ranger",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0608",
+      "bsd": 584,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 635,
+      "type": "tubeless"
+    },
+    {
+      "name":"Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0669",
+      "bsd": 584,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 685,
+      "type": "tubeless"
+    },
+    {
+      "name":"Light/High Grip",
+      "manufacturerProductCode": "W010-0668",
+      "bsd": 584,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 762,
+      "type": "tubeless"
+    },
+    {
+      "name":"Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0691",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 870,
+      "type": "tubeless"
+    },
+    {
+      "name":"Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0667",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 700,
+      "type": "tubeless"
+    },
+        {
+      "name":"Light/High Grip",
+      "manufacturerProductCode": "W010-0666",
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 791,
+      "type": "tubeless"
+    },
+  ]
+}  

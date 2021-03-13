@@ -1,0 +1,39 @@
+{
+  "id": "b97b06fa-6493-4b85-94f2-b41b2a9f559b",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Sendero",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0826",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 621,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0846",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 657,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0759",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 568,
+      "type": "tubeless"
+    },
+  ]
+}  

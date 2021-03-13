@@ -1,0 +1,69 @@
+{
+  "id": "f9544393-e44a-47db-bcd7-1a7d5d965297",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Riddler",
+  "application": ["light-gravel", "rough-gravel"],
+    "sizes": [
+  	{
+      "manufacturerProductCode": "W010-0641",
+      "bsd": 622,
+      "width": 37,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0852",
+      "bsd": 622,
+      "width": 37,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 481,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0694",
+      "bsd": 622,
+      "width": 37,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 465,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0642",
+      "bsd": 622,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 560,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0853",
+      "bsd": 622,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 541,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "W010-0695",
+      "bsd": 622,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 560,
+      "type": "tubeless"
+    },
+  ]
+}  
