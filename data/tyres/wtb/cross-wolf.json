@@ -6,6 +6,7 @@
   "application": ["light-gravel", "rough-gravel", "singletrack"],
     "sizes": [
   	{
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0535",
       "bsd": 622,
       "width": 32,

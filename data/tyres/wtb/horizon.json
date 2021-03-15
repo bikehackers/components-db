@@ -6,6 +6,7 @@
   "application": ["road", "rough-road", "light-gravel"],
     "sizes": [
   	{
+      "name": "Road",
       "manufacturerProductCode": "W010-0698",
       "bsd": 584,
       "width": 47,
@@ -16,6 +17,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0640",
       "bsd": 584,
       "width": 47,
@@ -26,6 +28,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0842",
       "bsd": 584,
       "width": 47,

@@ -6,6 +6,7 @@
   "application": ["light-gravel", "rough-gravel"],
     "sizes": [
   	{
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0829",
       "bsd": 622,
       "width": 40,
@@ -16,6 +17,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0850",
       "bsd": 622,
       "width": 40,
@@ -26,6 +28,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0830",
       "bsd": 622,
       "width": 40,
@@ -36,6 +39,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0827",
       "bsd": 622,
       "width": 44,
@@ -46,6 +50,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0851",
       "bsd": 622,
       "width": 44,
@@ -56,6 +61,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0828",
       "bsd": 622,
       "width": 44,
