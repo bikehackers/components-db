@@ -1,11 +1,23 @@
 {
-  "id": "9cf2c87e-210d-414f-9ece-3d105e4ea45f",
+  "id": "41c5a354-fddc-4554-84b2-1cec9ab33113",
   "manufacturerCode": "wtb",
   "manufacturerProductCode": null,
-  "name": "Nano 700",
-  "application": ["light-gravel", "rough-gravel"],
+  "name": "Nano",
+  "application": ["light-gravel", "rough-gravel", "singletrack"],
     "sizes": [
   	{
+      "name":"Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0528",
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 685,
+      "type": "tubeless"
+    },
+    {
+      "name":"Light/Fast Rolling",
       "manufacturerProductCode": "W010-0578",
       "bsd": 622,
       "width": 40,
@@ -16,6 +28,7 @@
       "type": "tubeless"
     },
     {
+      "name":"Light/Fast Rolling",
       "manufacturerProductCode": "W010-0847",
       "bsd": 622,
       "width": 40,
@@ -26,6 +39,7 @@
       "type": "tubeless"
     },
     {
+      "name":"Light/Fast Rolling",
       "manufacturerProductCode": "W010-0692",
       "bsd": 622,
       "width": 40,
@@ -36,6 +50,7 @@
       "type": "tubeless"
     },
     {
+      "name":"Race Tube-Type",
       "manufacturerProductCode": "W010-0524",
       "bsd": 622,
       "width": 40,
@@ -43,9 +58,10 @@
       "sidewallColor": "black",
       "tpi": 60,
       "weight": 470,
-      "type": "tubeless"
+      "type": "clincher"
     },
     {
+      "name":"Race Tube-Type",
       "manufacturerProductCode": "W010-0523",
       "bsd": 622,
       "width": 40,
@@ -53,7 +69,7 @@
       "sidewallColor": "black",
       "tpi": 60,
       "weight": 550,
-      "type": "tubeless"
+      "type": "clincher"
     },
   ]
 }  

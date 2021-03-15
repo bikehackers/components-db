@@ -1,0 +1,42 @@
+{
+  "id": "a7f077f4-42c5-4a30-9840-25b386e68bb0",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Venture",
+  "application": ["rough-road", "light-gravel", "rough-gravel"],
+    "sizes": [
+  	{
+      "name": "Road",
+      "manufacturerProductCode": "W010-0825",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 586,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0843",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 617,
+      "type": "tubeless"
+    },
+    {
+      "name": "Road",
+      "manufacturerProductCode": "W010-0760",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 555,
+      "type": "tubeless"
+    },
+  ]
+}  

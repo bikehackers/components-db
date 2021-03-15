@@ -1,0 +1,97 @@
+{
+  "id": "e80b8dd9-b986-4f66-951b-1475bd65736f",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Trail Boss",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "name": "Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0593",
+      "bsd": 559,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 771,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0594",
+      "bsd": 559,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 900,
+      "type": "tubeless"
+    },
+    {
+      "name": "Comp Tube-Type",
+      "manufacturerProductCode": "W010-0595",
+      "bsd": 559,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 856,
+      "type": "clincher"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0553",
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1036,
+      "type": "tubeless"
+    },
+    {
+      "name": "Comp Tube-Type",
+      "manufacturerProductCode": "W010-0551",
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 891,
+      "type": "clincher"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0518",
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1091,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0519",
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 853,
+      "type": "tubeless"
+    },
+    {
+      "name": "Comp Tube-Type",
+      "manufacturerProductCode": "W010-0522",
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 914,
+      "type": "clincher"
+    },
+  ]
+}  

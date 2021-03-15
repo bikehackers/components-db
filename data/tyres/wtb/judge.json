@@ -1,0 +1,53 @@
+{
+  "id": "0fd2b8d5-864f-4753-802e-f2627640b5bf",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Judge",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "name":"Tough/High Grip",
+      "manufacturerProductCode": "W010-0751",
+      "bsd": 584,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1281,
+      "type": "tubeless"
+    },
+    {
+      "name":"Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0752",
+      "bsd": 584,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1323,
+      "type": "tubeless"
+    },
+    {
+      "name":"Tough/High Grip",
+      "manufacturerProductCode": "W010-0755",
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1295,
+      "type": "tubeless"
+    },
+    {
+      "name":"Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0756",
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1427,
+      "type": "tubeless"
+    },
+  ]
+}  

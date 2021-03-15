@@ -6,6 +6,7 @@
   "application": ["road","rough-road", "light-gravel"],
   "sizes": [
   	{
+      "name": "Road",
       "manufacturerProductCode": "W010-0677",
       "bsd": 584,
       "width": 47,
@@ -16,6 +17,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0701",
       "bsd": 584,
       "width": 47,
@@ -26,6 +28,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0839",
       "bsd": 584,
       "width": 47,
@@ -36,6 +39,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0821",
       "bsd": 622,
       "width": 34,
@@ -46,6 +50,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0822",
       "bsd": 622,
       "width": 34,
@@ -56,6 +61,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0823",
       "bsd": 622,
       "width": 40,
@@ -66,6 +72,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0824",
       "bsd": 622,
       "width": 40,
@@ -76,6 +83,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/ Fast Rolling",
       "manufacturerProductCode": "W010-0840",
       "bsd": 622,
       "width": 40,
@@ -86,6 +94,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0819",
       "bsd": 622,
       "width": 44,
@@ -96,6 +105,7 @@
       "type": "tubeless"
     },
     {
+      "name": "Road",
       "manufacturerProductCode": "W010-0820",
       "bsd": 622,
       "width": 44,
@@ -106,11 +116,12 @@
       "type": "tubeless"
     },
     {
+      "name": "Light/Fast Rolling",
       "manufacturerProductCode": "W010-0841",
       "bsd": 622,
       "width": 44,
       "treadColor": "black",
-      "sidewallColor": "tan",
+      "sidewallColor": "black",
       "tpi": 120,
       "weight": 525,
       "type": "tubeless"
