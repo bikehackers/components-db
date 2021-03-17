@@ -93,5 +93,115 @@
       "weight": 914,
       "type": "clincher"
     },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0776",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1156,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling + Slash Guard",
+      "manufacturerProductCode": "W010-0777",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1071,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0739",
+      "bsd": 584,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 774,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0778",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1224,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/Fast Rolling + Slash Guard",
+      "manufacturerProductCode": "W010-0779",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1196,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/Fast Rolling",
+      "manufacturerProductCode": "W010-0738",
+      "bsd": 622,
+      "width": 61,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 838,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0780",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1197,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling + Slash Guard",
+      "manufacturerProductCode": "W010-0781",
+      "bsd": 584,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1071,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling + Slash Guard",
+      "manufacturerProductCode": "W010-0783",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1195,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/Fast Rolling",
+      "manufacturerProductCode": "W010-0782",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1286,
+      "type": "tubeless"
+    },
   ]
 }  

@@ -1,0 +1,31 @@
+{
+  "id": "e7a62939-49d6-4cdd-af40-928dbad0bb7a",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Verdict Wet",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "name": "Tough/High Grip",
+      "manufacturerProductCode": "W010-0799",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1266,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/High Grip",
+      "manufacturerProductCode": "W010-0801",
+      "bsd": 622,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1332,
+      "type": "tubeless"
+    },
+  ]
+}  

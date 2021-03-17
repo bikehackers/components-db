@@ -1,0 +1,53 @@
+{
+  "id": "98508b49-7f7b-4f3d-a6b4-2bc83aa57fd7",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Verdict",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "name": "Light/High Grip + Slash Guard",
+      "manufacturerProductCode": "W010-0745",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1066,
+      "type": "tubeless"
+    },
+    {
+      "name": "Tough/High Grip",
+      "manufacturerProductCode": "W010-0743",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1260,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/High Grip + Slash Guard",
+      "manufacturerProductCode": "W010-0749",
+      "bsd": 622,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1193,
+      "type": "tubeless"
+    },
+    {
+      "name": "Light/High Grip + Slash Guard",
+      "manufacturerProductCode": "W010-0747",
+      "bsd": 622,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1291,
+      "type": "tubeless"
+    },
+  ]
+}  
