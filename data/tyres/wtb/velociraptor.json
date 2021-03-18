@@ -1,0 +1,31 @@
+{
+  "id": "600d1484-6a65-4067-917f-9aaa2c3047db",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "VelociRaptor",
+  "application": ["rough-gravel", "singletrack"],
+    "sizes": [
+  	{
+      "name": "Comp Tube-Typre (front)",
+      "manufacturerProductCode": "W010-0101",
+      "bsd": 559,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 829,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp Tube-Typre (rear)",
+      "manufacturerProductCode": "W010-0102",
+      "bsd": 559,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 829,
+      "type": "clincher"
+    },
+  ]
+}  

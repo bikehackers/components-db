@@ -1,0 +1,75 @@
+{
+  "id": "92e072fb-f34b-4814-b5fc-24c6e86fd2ba",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Sparwood",
+  "application": ["light-gravel", "rough-gravel"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR2678",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 54,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 700,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2679",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 54,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 665,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2680",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 54,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 615,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7258",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 780,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7259",
+      "name": "Durable Sidewall",
+      "bsd": 622,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 780,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7273",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 56,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 660,
+      "type": "tubeless"
+    },
+  ]
+}

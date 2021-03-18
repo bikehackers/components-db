@@ -1,0 +1,31 @@
+{
+  "id": "63301256-0197-4d22-ae86-f92ea22de9ac",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Expanse",
+  "application": ["road","rough-road", "light-gravel"],
+  "sizes": [
+  	{
+      "name": "Road",
+      "manufacturerProductCode": "W010-0815",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 332,
+      "type": "tubeless"
+    },
+    {
+      "name": "Road",
+      "manufacturerProductCode": "W010-0816",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 312,
+      "type": "tubeless"
+    },
+  ]
+}  

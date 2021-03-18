@@ -1,0 +1,152 @@
+{
+  "id": "d6ffcd5f-0075-458d-a1e7-648a1fd1e8d6",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "ThickSlick",
+  "application": ["road","rough-road"],
+  "sizes": [
+  	{
+      "name": "Race",
+      "manufacturerProductCode": "W010-0614",
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 245,
+      "type": "clincher"
+    },
+    {
+      "name": "Flat Guard",
+      "manufacturerProductCode": null,
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 480,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": null,
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 372,
+      "type": "clincher"
+    },
+    {
+      "name": "Race",
+      "manufacturerProductCode": "W010-0615",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 260,
+      "type": "clincher"
+    },
+    {
+      "name": "Flat Guard",
+      "manufacturerProductCode": "W010-0616",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 487,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0610",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 260,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0645",
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "white",
+      "tpi": null,
+      "weight": 260,
+      "type": "clincher"
+    },
+    {
+      "name": "Flat Guard",
+      "manufacturerProductCode": "W010-0617",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 490,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0611",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 467,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0658",
+      "bsd": 559,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 620,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0607",
+      "bsd": 584,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 713,
+      "type": "clincher"
+    },
+    {
+      "name": "Flat Guard",
+      "manufacturerProductCode": "W010-623",
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 786,
+      "type": "clincher"
+    },
+    {
+      "name": "Comp",
+      "manufacturerProductCode": "W010-0613",
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 698,
+      "type": "clincher"
+    },
+  ]
+}  

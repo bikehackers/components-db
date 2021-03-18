@@ -1,0 +1,53 @@
+{
+  "id": "d4cf4d48-cb08-4e3f-90d4-b14870232a4e",
+  "manufacturerCode": "wtb",
+  "manufacturerProductCode": null,
+  "name": "Exposure",
+  "application": ["road","rough-road", "light-gravel"],
+  "sizes": [
+  	{
+      "name": "Road",
+      "manufacturerProductCode": "W010-0639",
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 314,
+      "type": "tubeless"
+    },
+    {
+      "name": "Road",
+      "manufacturerProductCode": "W010-0693",
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 302,
+      "type": "tubeless"
+    },    
+    {
+      "name": "Road",
+      "manufacturerProductCode": "W010-0813",
+      "bsd": 622,
+      "width": 36,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 402,
+      "type": "tubeless"
+    },
+    {
+      "name": "Road",
+      "manufacturerProductCode": "W010-0814",
+      "bsd": 622,
+      "width": 36,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 351,
+      "type": "tubeless"
+    },
+  ]
+}  
