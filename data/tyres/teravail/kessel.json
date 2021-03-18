@@ -1,0 +1,108 @@
+{
+  "id": "fbb613a6-67bd-4315-b4c1-315fcbe92870",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Kessel",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR2688",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1090,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2689",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 1090,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2690",
+      "name": "Ultra Durable",
+      "bsd": 584,
+      "width": 64,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1240,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2692",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1140,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2694",
+      "name": "Ultra Durable",
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1215,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2693",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 1140,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2684",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1180,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2685",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 1180,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2686",
+      "name": "Ultra Durable",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1400,
+      "type": "tubeless"
+    },
+  ]
+}
