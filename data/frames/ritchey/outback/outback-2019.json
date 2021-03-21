@@ -1,0 +1,135 @@
+{
+  "id": "4116b3f2-6a5c-4259-8f88-23bdefb99984",
+  "code": "outback",
+  "name": "Outback",
+  "manufacturerCode": "ritchey",
+  "manufacturerProductCode": "97552847006",
+  "manufacturerRevision": "my19",
+  "hasForkCageMounts": false,
+  "hasTopTubeBagMounts": false,
+  "hasUnderDownTubeBottleCageMounts": false,
+  "hasSeatTubeBottleCageMounts": true,
+  "hasDownTubeBottleCageMounts": true,
+  "hasFrontRackMounts": false,
+  "hasRearRackMounts": false,
+  "hasFenderMounts": false,
+  "sizes": [
+    {
+      "code": "xs",
+      "name": "XS",
+      "measurements": {
+        "stack": 515.0,
+        "reach": 380.0,
+        "topTubeActual": 511.0,
+        "topTubeEffective": 523.0,
+        "seatTubeCenterToTop": 450.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 75.0,
+        "headTubeLength": 100.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 437,
+        "wheelbase": 1015.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 731.0
+      }
+    },
+    {
+      "code": "s",
+      "name": "S",
+      "measurements": {
+        "stack": 531.0,
+        "reach": 385.0,
+        "topTubeActual": 525.0,
+        "topTubeEffective": 537.0,
+        "seatTubeCenterToTop": 475.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 115.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 437,
+        "wheelbase": 1020.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 752.0
+      }
+    },
+    {
+      "code": "m",
+      "name": "M",
+      "measurements": {
+        "stack": 557.0,
+        "reach": 388.0,
+        "topTubeActual": 539.0,
+        "topTubeEffective": 553.0,
+        "seatTubeCenterToTop": 500.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 140.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 437,
+        "wheelbase": 1027.6,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 776.0
+      }
+    },
+    {
+      "code": "l",
+      "name": "L",
+      "measurements": {
+        "stack": 576.0,
+        "reach": 395.0,
+        "topTubeActual": 553.0,
+        "topTubeEffective": 566.0,
+        "seatTubeCenterToTop": 525.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 160.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 437,
+        "wheelbase": 1040.6,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 798.0
+      }
+    },
+    {
+      "code": "xl",
+      "name": "XL",
+      "measurements": {
+        "stack": 599.0,
+        "reach": 401.0,
+        "topTubeActual": 569.0,
+        "topTubeEffective": 583.0,
+        "seatTubeCenterToTop": 550.0,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 180.0,
+        "headTubeAngle": 73.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 437,
+        "wheelbase": 1047.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 820.0
+      }
+    }
+  ],
+  "sources": [
+    "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-17-at-4-54-16-pm-1537217682.png"
+  ]
+}

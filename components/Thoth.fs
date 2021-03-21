@@ -17,19 +17,6 @@ module Extras =
       Decode.list decoder
       |> Decode.map Set.ofList
 
-  module Encode =
-
-    let orNone (enc : Encoder<_>) : Encoder<_> =
-      function
-      | Some x -> enc x
-      | None -> Encode.nil
-
-    let stringOrNone = orNone Encode.string
-
-    let intOrNone = orNone Encode.int
-
-    let floatOrNone = orNone Encode.float
-
 module Encode =
 
   open Extras
@@ -47,10 +34,10 @@ module Encode =
           "speeds", Encode.int x.Speed
           "weight", Encode.int x.Weight
           "largestSprocketMaxTeeth", Encode.int x.LargestSprocketMaxTeeth
-          "largestSprocketMinTeeth", Encode.intOrNone x.LargestSprocketMinTeeth
-          "smallestSprocketMaxTeeth", Encode.intOrNone x.SmallestSprocketMaxTeeth
-          "smallestSprocketMinTeeth", Encode.intOrNone x.SmallestSprocketMinTeeth
-          "capacity", Encode.intOrNone x.Capacity
+          "largestSprocketMinTeeth", (Encode.option Encode.int) x.LargestSprocketMinTeeth
+          "smallestSprocketMaxTeeth", (Encode.option Encode.int) x.SmallestSprocketMaxTeeth
+          "smallestSprocketMinTeeth", (Encode.option Encode.int) x.SmallestSprocketMinTeeth
+          "capacity", (Encode.option Encode.int) x.Capacity
           "isClutched", Encode.bool x.Clutched
         ]
     )
@@ -62,7 +49,7 @@ module Encode =
           "manufacturerCode", Encode.string x.ManufacturerCode
           "manufacturerProductCode", Encode.string x.ManufacturerProductCode
           "speed", Encode.int x.Speed
-          "weight", Encode.intOrNone x.Weight
+          "weight", (Encode.option Encode.int) x.Weight
         ])
 
   let cassette : Encoder<Cassette> =
@@ -88,30 +75,30 @@ module Encode =
       Encode.object
         [
           "manufacturerCode", Encode.string x.ManufacturerCode
-          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "manufacturerProductCode", (Encode.option Encode.string) x.ManufacturerProductCode
           "speed", Encode.int x.Speed
           "cablePull", Encode.float x.CablePull
           "hand", handedness x.Hand
-          "weight", Encode.intOrNone x.Weight
+          "weight", (Encode.option Encode.int) x.Weight
         ])
 
   let dropHandleBarSize : Encoder<DropHandleBarSize> =
     (fun x ->
       Encode.object
         [
-          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "manufacturerProductCode", (Encode.option Encode.string) x.ManufacturerProductCode
           "nominalSize", Encode.string x.NominalSize
           "clampDiameter", Encode.float x.ClampDiameter
-          "clampAreaWidth", Encode.floatOrNone x.ClampAreaWidth
-          "drop", Encode.floatOrNone x.Drop
-          "reach", Encode.floatOrNone x.Reach
-          "width", Encode.floatOrNone x.Width
-          "dropFlare", Encode.floatOrNone x.DropFlare
-          "dropFlareOut", Encode.floatOrNone x.DropFlareOut
-          "rise", Encode.floatOrNone x.Rise
-          "sweep", Encode.floatOrNone x.Sweep
-          "outsideWidth", Encode.floatOrNone x.OutsideWidth
-          "weight", Encode.intOrNone x.Weight
+          "clampAreaWidth", (Encode.option Encode.float) x.ClampAreaWidth
+          "drop", (Encode.option Encode.float) x.Drop
+          "reach", (Encode.option Encode.float) x.Reach
+          "width", (Encode.option Encode.float) x.Width
+          "dropFlare", (Encode.option Encode.float) x.DropFlare
+          "dropFlareOut", (Encode.option Encode.float) x.DropFlareOut
+          "rise", (Encode.option Encode.float) x.Rise
+          "sweep", (Encode.option Encode.float) x.Sweep
+          "outsideWidth", (Encode.option Encode.float) x.OutsideWidth
+          "weight", (Encode.option Encode.int) x.Weight
         ])
 
   let dropHandleBar : Encoder<DropHandleBar> =
@@ -144,14 +131,14 @@ module Encode =
     (fun x ->
       Encode.object
         [
-          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "manufacturerProductCode", (Encode.option Encode.string) x.ManufacturerProductCode
           "bsd", Encode.int x.BeadSeatDiameter
           "type", tyreType x.Type
           "width", Encode.int x.Width
-          "weight", Encode.intOrNone x.Weight
+          "weight", (Encode.option Encode.int) x.Weight
           "treadColor", Encode.string x.TreadColor
           "sidewallColor", Encode.string x.SidewallColor
-          "tpi", Encode.intOrNone x.Tpi
+          "tpi", (Encode.option Encode.int) x.Tpi
         ])
 
   let tyre : Encoder<Tyre> =
@@ -160,15 +147,28 @@ module Encode =
         [
           "id", Encode.guid x.ID
           "manufacturerCode", Encode.string x.ManufacturerCode
-          "manufacturerProductCode", Encode.stringOrNone x.ManufacturerProductCode
+          "manufacturerProductCode", (Encode.option Encode.string) x.ManufacturerProductCode
           "name", Encode.string x.Name
           "sizes", Encode.list (x.Sizes |> List.map tyreSize)
-          "application", Encode.orNone Encode.list (x.Application |> Option.map (Seq.toList >> List.map tyreApplication))
+          "application", Encode.option Encode.list (x.Application |> Option.map (Seq.toList >> List.map tyreApplication))
         ])
 
 module Decode =
 
+  open System.Text.RegularExpressions
   open Extras
+
+  let code : Decoder<string> =
+    Decode.string
+    |> Decode.andThen (fun x ->
+      let pattern = Regex "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+
+      if pattern.IsMatch x
+      then
+        Decode.succeed x
+      else
+        Decode.fail (sprintf "\"%s\" does not match the pattern /%A/" x pattern)
+    )
 
   let private tryParseInt (x : string) =
     match Int32.TryParse x with
@@ -260,29 +260,6 @@ module Decode =
           SmallestSprocketMinTeeth = get.Optional.Field "smallestSprocketMinTeeth" Decode.int
           Capacity = get.Optional.Field "capacity" Decode.int
           Clutched = get.Required.Field "isClutched" Decode.bool
-        }
-      )
-
-  let frameMeasurements : Decoder<FrameMeasurements> =
-    Decode.object
-      (fun get ->
-        {
-          Stack = get.Optional.Field "stack" Decode.float
-          Reach = get.Optional.Field "reach" Decode.float
-          TopTubeActual = get.Optional.Field "topTubeActual" Decode.float
-          TopTubeEffective = get.Optional.Field "topTubeEffective" Decode.float
-          SeatTubeCenterToTop = get.Optional.Field "seatTubeCenterToTop" Decode.float
-          HeadTubeLength = get.Optional.Field "headTubeLength" Decode.float
-          HeadTubeAngle = get.Optional.Field "headTubeAngle" Decode.float
-          SeatTubeAngle = get.Optional.Field "seatTubeAngle" Decode.float
-          BottomBracketDrop = get.Optional.Field "bottomBracketDrop" Decode.float
-          ForkLength = get.Optional.Field "forkLength" Decode.float
-          StandoverHeight = get.Optional.Field "standoverHeight" Decode.float
-          ForkRake = get.Optional.Field "forkRake" Decode.float
-          ForkAxleToCrown = get.Optional.Field "forkAxleToCrown" Decode.float
-          ChainStayLength = get.Optional.Field "chainStayLength" Decode.float
-          Wheelbase = get.Optional.Field "bottomBracketDrop" Decode.float
-          SeatPostDiameter = get.Optional.Field "seatPostDiameter" Decode.float
         }
       )
 
@@ -407,5 +384,61 @@ module Decode =
           Name = get.Required.Field "name" Decode.string
           Application = get.Optional.Field "application" (Decode.set tyreApplication)
           Sizes = get.Required.Field "sizes" (Decode.list tyreSize)
+        }
+      )
+
+  let frameMeasurements : Decoder<FrameMeasurements> =
+    Decode.object
+      (fun get ->
+        {
+          Stack = get.Optional.Field "stack" Decode.float
+          Reach = get.Optional.Field "reach" Decode.float
+          TopTubeActual = get.Optional.Field "topTubeActual" Decode.float
+          TopTubeEffective = get.Optional.Field "topTubeEffective" Decode.float
+          SeatTubeCenterToTop = get.Optional.Field "seatTubeCenterToTop" Decode.float
+          SeatTubeCenterToCenter = get.Optional.Field "seatTubeCenterToCenter" Decode.float
+          HeadTubeLength = get.Optional.Field "headTubeLength" Decode.float
+          HeadTubeAngle = get.Optional.Field "headTubeAngle" Decode.float
+          SeatTubeAngle = get.Optional.Field "seatTubeAngle" Decode.float
+          BottomBracketDrop = get.Optional.Field "bottomBracketDrop" Decode.float
+          ForkAxleToCrown = get.Optional.Field "forkAxleToCrown" Decode.float
+          ForkRake = get.Optional.Field "forkRake" Decode.float
+          ForkLength = get.Optional.Field "forkLength" Decode.float
+          Wheelbase = get.Optional.Field "wheelbase" Decode.float
+          StandoverHeight = get.Optional.Field "standoverHeight" Decode.float
+          SeatPostDiameter = get.Optional.Field "seatPostDiameter" Decode.float
+          ChainStayLength = get.Optional.Field "chainStayLength" Decode.float
+        })
+
+  let frameSize : Decoder<FrameSize> =
+    Decode.object
+      (fun get ->
+        {
+          Code = get.Required.Field "code" code
+          Name = get.Required.Field "name" Decode.string
+          Measurements = get.Required.Field "measurements" frameMeasurements
+        }
+      )
+
+  let frame : Decoder<Frame> =
+    Decode.object
+      (fun get ->
+        {
+          ID = get.Required.Field "id" Decode.guid
+          Code = get.Required.Field "code" code
+          ManufacturerCode = get.Required.Field "manufacturerCode" code
+          ManufacturerProductCode = get.Optional.Field "manufacturerProductCode" Decode.string
+          ManufacturerRevision = get.Optional.Field "manufacturerRevision" Decode.string
+          Name = get.Required.Field "name" Decode.string
+          Sizes = get.Required.Field "sizes" (Decode.list frameSize)
+          HasFenderMounts = get.Required.Field "hasFenderMounts" Decode.bool
+          HasFrontRackMounts = get.Required.Field "hasFrontRackMounts" Decode.bool
+          HasRearRackMounts = get.Required.Field "hasRearRackMounts" Decode.bool
+          HasDownTubeBottleCageMounts = get.Required.Field "hasDownTubeBottleCageMounts" Decode.bool
+          HasSeatTubeBottleCageMounts = get.Required.Field "hasSeatTubeBottleCageMounts" Decode.bool
+          HasUnderDownTubeBottleCageMounts = get.Required.Field "hasUnderDownTubeBottleCageMounts" Decode.bool
+          HasTopTubeBagMounts = get.Required.Field "hasTopTubeBagMounts" Decode.bool
+          HasForkCageMounts = get.Required.Field "hasForkCageMounts" Decode.bool
+          Sources = get.Required.Field "sources" (Decode.list Decode.string)
         }
       )

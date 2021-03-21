@@ -243,5 +243,27 @@ async {
 
       printfn "%A" decoded
       printfn "%A" (Map.find decoded.ManufacturerCode manufacturers)
+
+    // Frames
+    let glob = Glob.Parse "./data/frames/**/*.json"
+
+    let xs =
+      filesUnderPath "./data/frames"
+      |> Seq.filter glob.IsMatch
+      |> Seq.toList
+
+    for filePath in xs do
+      printfn "%A" filePath
+
+      let! content =
+        File.ReadAllTextAsync filePath
+        |> Async.AwaitTask
+
+      let decoded =
+        Decode.fromString Decode.frame content
+        |> Result.get
+
+      printfn "%A" decoded
+      printfn "%A" (Map.find decoded.ManufacturerCode manufacturers)
 }
 |> Async.RunSynchronously

@@ -41,17 +41,25 @@ type FrameMeasurements =
     TopTubeActual : float option
     TopTubeEffective : float option
     SeatTubeCenterToTop : float option
+    SeatTubeCenterToCenter : float option
     HeadTubeLength : float option
     HeadTubeAngle : float option
     SeatTubeAngle : float option
     BottomBracketDrop : float option
-    ForkAxleToCrown : float option
     ChainStayLength : float option
     ForkLength : float option
     ForkRake : float option
+    ForkAxleToCrown : float option
     Wheelbase : float option
     StandoverHeight : float option
     SeatPostDiameter : float option
+  }
+
+type FrameSize =
+  {
+    Name : string
+    Code : string
+    Measurements : FrameMeasurements
   }
 
 type RimBrakePadCartridgeType =
@@ -190,6 +198,26 @@ type Tyre =
     Name : string
     Sizes : TyreSize list
     Application : (Set<TyreApplication>) option
+  }
+
+type Frame =
+  {
+    ID : Guid
+    Code : string
+    ManufacturerCode : string
+    ManufacturerProductCode : string option
+    ManufacturerRevision : string option
+    Name : string
+    Sizes : FrameSize list
+    HasFenderMounts : bool
+    HasRearRackMounts : bool
+    HasFrontRackMounts : bool
+    HasTopTubeBagMounts : bool
+    HasSeatTubeBottleCageMounts : bool
+    HasDownTubeBottleCageMounts : bool
+    HasUnderDownTubeBottleCageMounts : bool
+    HasForkCageMounts : bool
+    Sources : string list
   }
 
 module WheelBsd =

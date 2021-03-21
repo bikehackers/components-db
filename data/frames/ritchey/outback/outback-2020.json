@@ -1,0 +1,67 @@
+{
+  "id": "2bd9eea6-ae97-4b2c-ba89-d38b2715b266",
+  "code": "outback",
+  "name": "Outback",
+  "manufacturerCode": "ritchey",
+  "manufacturerProductCode": "97500008002",
+  "manufacturerRevision": "my20",
+  "hasForkCageMounts": true,
+  "hasTopTubeBagMounts": false,
+  "hasUnderDownTubeBottleCageMounts": true,
+  "hasSeatTubeBottleCageMounts": true,
+  "hasDownTubeBottleCageMounts": true,
+  "hasFrontRackMounts": true,
+  "hasRearRackMounts": true,
+  "hasFenderMounts": true,
+  "sizes": [
+    {
+      "code": "l",
+      "name": "L",
+      "measurements": {
+        "stack": 587.4,
+        "reach": 390.0,
+        "topTubeActual": 551.9,
+        "topTubeEffective": 569.8,
+        "seatTubeCenterToTop": 515.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 170.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1069.6,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 817.8
+      }
+    },
+    {
+      "code": "xl",
+      "name": "XL",
+      "measurements": {
+        "stack": 606.3,
+        "reach": 395.0,
+        "topTubeActual": 563.4,
+        "topTubeEffective": 580.6,
+        "seatTubeCenterToTop": 540.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 190.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1081.1,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 839.1
+      }
+    }
+  ],
+  "sources": [
+    "https://eu.ritcheylogic.com/media/itm/magb1/Productfiles/97500008002/ritchey-outback-my20-geometry-0420.pdf"
+  ]
+}
