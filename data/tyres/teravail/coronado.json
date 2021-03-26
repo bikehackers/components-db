@@ -1,0 +1,97 @@
+{
+  "id": "a6774132-a5a5-4f9c-9a86-fda741963769",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Coronado",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR7257",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 76,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1075,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7256",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 76,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 970,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7288",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 76,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 935,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7255",
+      "name": "Durable",
+      "bsd": 559,
+      "width": 100,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1405,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7254",
+      "name": "Light & Supple",
+      "bsd": 559,
+      "width": 100,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 120,
+      "weight": 1135,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7294",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1090,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7295",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1175,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7296",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 990,
+      "type": "tubeless"
+    },
+  ]
+}

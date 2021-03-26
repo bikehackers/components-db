@@ -1,0 +1,53 @@
+{
+  "id": "16f189f6-c118-42d8-83da-9936132c6fb6",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Cumberland",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR7212",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1015,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7213",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1120,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7217",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1015,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7218",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1135,
+      "type": "tubeless"
+    },
+  ]
+}

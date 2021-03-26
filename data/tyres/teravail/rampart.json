@@ -1,0 +1,174 @@
+{
+  "id": "30fa5ce4-ae17-42a5-8911-0bcf2c8d961f",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Rampart",
+  "application": ["road"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR7264",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 545,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7265",
+      "name": "Durable",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 550,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7274",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 510,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7275",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 335,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7276",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 380,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7277",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 280,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2683",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 320,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7278",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 390,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7279",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 455,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7297",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 515,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7298",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 570,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7299",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 435,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2666",
+      "name": "Durable",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 530,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2667",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 520,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR2668",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": 60,
+      "weight": 460,
+      "type": "tubeless"
+    },
+  ]
+}

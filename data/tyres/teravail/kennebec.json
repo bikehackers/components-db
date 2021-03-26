@@ -1,0 +1,53 @@
+{
+  "id": "dffbabfa-2a80-40b6-84da-7bd7453e2691",
+  "manufacturerCode": "teravail",
+  "manufacturerProductCode": null,
+  "name": "Kennebec",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "manufacturerProductCode": "TR7219",
+      "name": "Light & Supple",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1005,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7220",
+      "name": "Durable Sidewall",
+      "bsd": 622,
+      "width": 66,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1125,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7210",
+      "name": "Light & Supple",
+      "bsd": 584,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1125,
+      "type": "tubeless"
+    },
+    {
+      "manufacturerProductCode": "TR7211",
+      "name": "Durable Sidewall",
+      "bsd": 584,
+      "width": 71,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 60,
+      "weight": 1230,
+      "type": "tubeless"
+    },
+  ]
+}
