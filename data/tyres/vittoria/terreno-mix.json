@@ -1,0 +1,59 @@
+{
+  "id": "1d874b19-e435-4e53-9718-54fdd257e8f8",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Terreno Mix",
+  "application": ["light-gravel", "rough-gravel"],
+  "sizes": [
+  	{
+      "bsd": 622,
+      "width": 31,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 380,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00074"
+    },
+    {
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 420,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00075"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 500,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00076"
+    },
+    {
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 618,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00283"
+    },
+    {
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 640,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00260"
+    },
+  ]
+}  

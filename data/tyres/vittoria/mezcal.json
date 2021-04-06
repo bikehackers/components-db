@@ -1,0 +1,199 @@
+{
+  "id": "79002289-8394-420d-8c2c-592c9e64b24b",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Mezcal",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+  	{
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 640,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00033"
+    },
+    {
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 690,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00036"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 725,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00346"
+    },
+    {
+      "bsd": 559,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 620,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00027"
+    },
+    {
+      "bsd": 584,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 660,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00028"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 830,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00031"
+    },
+    {
+      "bsd": 584,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 670,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00029"
+    },
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 680,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00030"
+    },
+    {
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 680,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00034"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 870,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00039"
+    },
+    {
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 725,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00037"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 735,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00038"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 440,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00225"
+    },
+    {
+      "bsd": 559,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 755,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M12352111TG"
+    },
+    {
+      "bsd": 584,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 770,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M22352111TG"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1020,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M22365111TG"
+    },
+    {
+      "bsd": 584,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 820,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M22355111TG"
+    },
+    {
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 830,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M32352111TG"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1070,
+      "type": "clincher",
+      "manufacturerProductCode": "1113M32365111TG"
+    },
+  ]
+}  
