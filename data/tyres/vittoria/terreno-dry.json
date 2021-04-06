@@ -1,0 +1,109 @@
+{
+  "id": "9aa51ace-d189-4cc3-9f45-c49cb47522f9",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Terreno Dry",
+  "application": ["light-gravel", "rough-gravel"],
+  "sizes": [
+  	{
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 450,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00288"
+    },
+    {
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 550,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00071"
+    },
+    {
+      "bsd": 622,
+      "width": 31,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 400,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00068"
+    },
+    {
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 410,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00069"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 470,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00265"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 490,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00070"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 707,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00286"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 698,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00287"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 721,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00263"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 721,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00264"
+    },
+  ]
+}  

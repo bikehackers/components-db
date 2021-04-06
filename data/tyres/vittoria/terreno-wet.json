@@ -1,0 +1,39 @@
+{
+  "id": "7ae3191d-b156-4527-adda-0af2a8060c34",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Terreno Wet",
+  "application": ["light-gravel", "rough-gravel"],
+  "sizes": [
+  	{
+      "bsd": 622,
+      "width": 31,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 390,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00079"
+    },
+    {
+      "bsd": 622,
+      "width": 33,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 410,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00080"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 500,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00081"
+    },
+  ]
+}  
