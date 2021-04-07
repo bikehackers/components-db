@@ -15,6 +15,7 @@ type FrontOrRear =
 type WheelBsd =
   | W26
   | W650B
+  | W650C
   | W700C
 
 type Manufacturer =
@@ -197,6 +198,7 @@ module WheelBsd =
   let toMillimeters (bsd : WheelBsd) =
     match bsd with
     | W26 -> 559
+    | W650C -> 571
     | W650B -> 584
     | W700C -> 622
 
@@ -204,5 +206,6 @@ module WheelBsd =
     match x with
     | 622 -> Some W700C
     | 584 -> Some W650B
+    | 571 -> Some W650C
     | 559 -> Some W26
     | _ -> None
