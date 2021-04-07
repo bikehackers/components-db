@@ -1,0 +1,19 @@
+{
+  "id": "836979f8-aa86-40a5-830b-69d75850d817",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Saguard",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 785,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00320"
+    },
+  ]
+}  
