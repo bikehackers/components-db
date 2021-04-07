@@ -1,0 +1,49 @@
+{
+  "id": "de53deb2-29f3-424c-8988-39327e114d8e",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Agarro",
+  "application": ["singletrack"],
+  "sizes": [
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 940,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00196"
+    },
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 850,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00197"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 970,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00194"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 940,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00195"
+    },
+  ]
+}  

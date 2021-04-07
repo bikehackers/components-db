@@ -1,0 +1,62 @@
+{
+  "id": "6d7c0c48-c1b2-4343-9b64-628bdacdf6bf",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Martello",
+  "application": ["singletrack"],
+  "sizes": [
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 940,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00051"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1000,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00054"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1250,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00052",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1160,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00050",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1260,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00053",
+      "name": "2PLY"
+    },
+  ]
+}  

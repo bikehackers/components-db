@@ -1,0 +1,29 @@
+{
+  "id": "5d6666dd-87dd-4b16-84e6-7e0f052d4f67",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Terreno",
+  "application": ["rough-gravel", "singletrack"],
+  "sizes": [
+  	{
+      "bsd": 622,
+      "width": 52,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 600,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00065"
+    },
+    {
+      "bsd": 622,
+      "width": 55,
+      "treadColor": "black",
+      "sidewallColor": "tan",
+      "tpi": null,
+      "weight": 650,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00067"
+    },
+  ]
+}  

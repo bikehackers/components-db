@@ -1,0 +1,93 @@
+{
+  "id": "d4aea37d-9559-4d68-a224-fbb66c2d511f",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Mazza",
+  "application": ["singletrack"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 950,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00230"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1030,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00231"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1100,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00232"
+    },
+    {
+      "bsd": 584,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 890,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00229"
+    },
+    {
+      "bsd": 584,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1200,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00279",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 622,
+      "width": 60,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1300,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00280",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1300,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00281",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1400,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00282",
+      "name": "2PLY"
+    },
+  ]
+}  

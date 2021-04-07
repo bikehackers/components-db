@@ -1,0 +1,114 @@
+{
+  "id": "f6480211-5aff-4222-935e-6016d670e45a",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Martello",
+  "application": ["singletrack"],
+  "sizes": [
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1100,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00023"
+    },
+    {
+      "bsd": 584,
+      "width": 70,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1140,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00024"
+    },
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 920,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00021"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 1100,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00200"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "grey",
+      "tpi": null,
+      "weight": 960,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00026"
+    },
+    {
+      "bsd": 584,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1230,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00022",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 584,
+      "width": 70,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1230,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00213",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 584,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1180,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00020",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 622,
+      "width": 65,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1380,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00323",
+      "name": "2PLY"
+    },
+    {
+      "bsd": 622,
+      "width": 57,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1230,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00025",
+      "name": "2PLY"
+    },
+  ]
+}  
