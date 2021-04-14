@@ -1,0 +1,89 @@
+{
+  "id": "f8e67f45-f9a1-4e06-a022-e67347fd2421",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Randonneur",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 502,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442428111TG"
+    },
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 581,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442432111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 608,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442437111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 795,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442442111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 665,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442540111TG"
+    }, 
+    {
+      "bsd": 559,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 762,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442547111TG"
+    }, 
+    {
+      "bsd": 559,
+      "width": 54,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 953,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442554111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 851,
+      "type": "clincher",
+      "manufacturerProductCode": "1113442447111TG"
+    },     
+  ]
+}  

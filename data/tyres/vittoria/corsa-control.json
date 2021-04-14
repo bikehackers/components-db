@@ -1,0 +1,159 @@
+{
+  "id": "96fb19c5-bbb9-4238-834f-97710e96cb76",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Corsa Control",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 295,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00112"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 295,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00113"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 350,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00114"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 350,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00115"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 370,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00116"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 370,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00117"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 300,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00105"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 315,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00108"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 320,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00111"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 265,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00103"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 265,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00104"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 280,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00106"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 280,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00107"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 280,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00109"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 280,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00110"
+    },
+  ]
+}  

@@ -1,0 +1,79 @@
+{
+  "id": "467ea69d-a3d7-400d-8f42-134dadc99eef",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Revolution Tech",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 559,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1120,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00177"
+    },
+    {
+      "bsd": 584,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1170,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00178"
+    }, 
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 540,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00179"
+    },
+    {
+      "bsd": 622,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1270,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00180"
+    }, 
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 580,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00181"
+    },  
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 780,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00182"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 790,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00183"
+    },
+  ]
+}  

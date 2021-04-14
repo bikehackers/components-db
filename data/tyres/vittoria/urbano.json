@@ -1,0 +1,89 @@
+{
+  "id": "2ca088f9-6ed4-42eb-9052-68e023c8f5a6",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Urbano",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 667,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00271"
+    },
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 749,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00272"
+    },
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 887,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00273"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 942,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00274"
+    },
+    {
+      "bsd": 622,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 965,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00275"
+    },
+    {
+      "bsd": 622,
+      "width": 45,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1151,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00276"
+    },
+    {
+      "bsd": 559,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1061,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00277"
+    },
+    {
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 1066,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00278"
+    },
+  ]
+}  

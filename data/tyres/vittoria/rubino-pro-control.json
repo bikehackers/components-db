@@ -1,0 +1,39 @@
+{
+  "id": "998e960a-499c-4695-8b00-f68141fa7ec2",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Rubino Pro Control",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 290,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00149"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 300,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00150"
+    },  
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 340,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00151"
+    },  
+  ]
+}  

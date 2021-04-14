@@ -1,0 +1,39 @@
+{
+  "id": "6758ff5d-b3ad-41cc-b73b-7f022f0e993d",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Adventure Tech",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 645,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00164"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 840,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00166"
+    },  
+    {
+      "bsd": 622,
+      "width": 35,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 740,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00165"
+    },
+  ]
+}  

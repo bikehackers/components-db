@@ -1,0 +1,29 @@
+{
+  "id": "c333af1a-7a67-4385-9bcc-fe0c23c1c000",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Roadster",
+  "application": ["road", "rough road"],
+  "sizes": [
+    {
+      "bsd": 559,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 650,
+      "type": "clincher",
+      "manufacturerProductCode": "1113RD2340111TG"
+    },
+    {
+      "bsd": 622,
+      "width": 38,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 720,
+      "type": "clincher",
+      "manufacturerProductCode": "1113R92340111TG"
+    }, 
+  ]
+}  
