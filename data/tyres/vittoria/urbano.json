@@ -3,7 +3,7 @@
   "manufacturerCode": "vittoria",
   "manufacturerProductCode": null,
   "name": "Urbano",
-  "application": ["road", "rough road"],
+  "application": ["road", "rough-road"],
   "sizes": [
     {
       "bsd": 622,
