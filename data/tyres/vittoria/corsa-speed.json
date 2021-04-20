@@ -1,0 +1,69 @@
+{
+  "id": "afcd3aaf-d2f8-4ec3-bbf5-0d10f7330ed4",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Corsa Speed",
+  "application": ["road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 200,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00120"
+    },
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 200,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00121"
+    }, 
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 205,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00122"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": null,
+      "weight": 205,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00123"
+    },
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 225,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00118"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 240,
+      "type": "tubeless",
+      "manufacturerProductCode": "11A00119"
+    },
+  ]
+}  

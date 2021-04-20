@@ -1,0 +1,69 @@
+{
+  "id": "f399cdaa-5301-47e4-aafa-9bdb0fe78635",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Rally",
+  "application": ["road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 220,
+      "weight": 310,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0923111TG"
+    },
+    {
+      "bsd": 622,
+      "width": 21,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 220,
+      "weight": 300,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0921111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 21,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": 220,
+      "weight": 300,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0921411TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 220,
+      "weight": 320,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0925111TG"
+    }, 
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": 220,
+      "weight": 320,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0925411TG"
+    },
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "beige",
+      "tpi": 220,
+      "weight": 310,
+      "type": "clincher",
+      "manufacturerProductCode": "11110V0923411TG"
+    },  
+  ]
+}  

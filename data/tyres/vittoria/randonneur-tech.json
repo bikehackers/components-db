@@ -1,0 +1,89 @@
+{
+  "id": "af4a9b58-e58d-46ae-b42e-3dc5d4194525",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Randonneur Tech",
+  "application": ["road", "rough-road"],
+  "sizes": [
+    {
+      "bsd": 584,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 770,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00168"
+    },
+    {
+      "bsd": 584,
+      "width": 47,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 810,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00169"
+    },  
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 490,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00170"
+    },
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 580,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00171"
+    },
+    {
+      "bsd": 622,
+      "width": 37,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 670,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00172"
+    },
+    {
+      "bsd": 559,
+      "width": 40,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 720,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00174"
+    },
+    {
+      "bsd": 622,
+      "width": 42,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 800,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00175"
+    },
+    {
+      "bsd": 622,
+      "width": 50,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 970,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00176"
+    },
+  ]
+}  

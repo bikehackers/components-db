@@ -1,0 +1,29 @@
+{
+  "id": "903417ec-752e-49c5-8313-1b414179d0c6",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Rubino Pro Speed",
+  "application": ["road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 23,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 220,
+      "weight": 190,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00155"
+    },
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": 220,
+      "weight": 200,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00156"
+    }, 
+  ]
+}  

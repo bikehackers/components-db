@@ -1,0 +1,29 @@
+{
+  "id": "57871d54-4737-4fbd-b6e4-6df040be30e7",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Evolution",
+  "application": ["road", "rough-road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 46,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 950,
+      "type": "clincher",
+      "manufacturerProductCode": "1113V92348111TG"
+    },
+    {
+      "bsd": 559,
+      "width": 48,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 790,
+      "type": "clincher",
+      "manufacturerProductCode": "1113VV2348111TG"
+    },
+  ]
+}  

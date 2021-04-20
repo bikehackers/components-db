@@ -1,0 +1,49 @@
+{
+  "id": "01da2663-45f3-43a5-b267-864802ba8e3d",
+  "manufacturerCode": "vittoria",
+  "manufacturerProductCode": null,
+  "name": "Zaffiro Pro",
+  "application": ["road"],
+  "sizes": [
+    {
+      "bsd": 622,
+      "width": 25,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 310,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00294"
+    },
+    {
+      "bsd": 622,
+      "width": 28,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 340,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00295"
+    },
+    {
+      "bsd": 622,
+      "width": 30,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 385,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00296"
+    },
+    {
+      "bsd": 622,
+      "width": 32,
+      "treadColor": "black",
+      "sidewallColor": "black",
+      "tpi": null,
+      "weight": 395,
+      "type": "clincher",
+      "manufacturerProductCode": "11A00297"
+    },
+  ]
+}  
