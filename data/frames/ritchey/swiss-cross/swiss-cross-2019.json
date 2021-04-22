@@ -15,6 +15,108 @@
   "hasFenderMounts": false,
   "sizes": [
     {
+      "code": "xs",
+      "name": "XS",
+      "measurements": {
+        "stack": 515.0,
+        "reach": 376.0,
+        "topTubeActual": 502.0,
+        "topTubeEffective": 514.0,
+        "seatTubeCenterToTop": 440.0,
+        "seatTubeAngle": 75.0,
+        "headTubeLength": 105.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 65.0,
+        "chainStayLength": 437,
+        "wheelbase": 1013.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": 380,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 746.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
+      }
+    },
+    {
+      "code": "s",
+      "name": "S",
+      "measurements": {
+        "stack": 531.0,
+        "reach": 382.0,
+        "topTubeActual": 516.0,
+        "topTubeEffective": 530.0,
+        "seatTubeCenterToTop": 465.0,
+        "seatTubeAngle": 74.5,
+        "headTubeLength": 120.0,
+        "headTubeAngle": 71.5,
+        "bottomBracketDrop": 65.0,
+        "chainStayLength": 437,
+        "wheelbase": 1020.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": 380,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 766.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
+      }
+    },
+    {
+      "code": "m",
+      "name": "M",
+      "measurements": {
+        "stack": 550.0,
+        "reach": 388.0,
+        "topTubeActual": 532.0,
+        "topTubeEffective": 546.0,
+        "seatTubeCenterToTop": 490.0,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 140.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 63.0,
+        "chainStayLength": 437,
+        "wheelbase": 1028.0,
+        "forkAxleToCrown": 383,
+        "forkRake": 47,
+        "forkLength": 380,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 789.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
+      }
+    },
+    {
       "code": "l",
       "name": "L",
       "measurements": {
@@ -33,7 +135,19 @@
         "forkRake": 47,
         "forkLength": 380,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 810.0
+        "standoverHeight": 810.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     },
     {
@@ -55,7 +169,19 @@
         "forkRake": 47,
         "forkLength": 380,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 832.0
+        "standoverHeight": 832.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     }
   ],

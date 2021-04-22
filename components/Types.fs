@@ -53,6 +53,8 @@ type FrameMeasurements =
     Wheelbase : float option
     StandoverHeight : float option
     SeatPostDiameter : float option
+    FrontTyreClearance : Map<int, int>
+    RearTyreClearance : Map<int, int>
   }
 
 type FrameSize =

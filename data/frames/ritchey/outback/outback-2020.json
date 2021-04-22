@@ -15,6 +15,135 @@
   "hasFenderMounts": true,
   "sizes": [
     {
+      "code": "xs",
+      "name": "XS",
+      "measurements": {
+        "stack": 531.7,
+        "reach": 373.0,
+        "topTubeActual": 509.8,
+        "topTubeEffective": 525.9,
+        "seatTubeCenterToTop": 465.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 115.0,
+        "headTubeAngle": 69.5,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 453,
+        "wheelbase": 1046.5,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 753.5,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "s",
+      "name": "S",
+      "measurements": {
+        "stack": 547.7,
+        "reach": 378.0,
+        "topTubeActual": 523.7,
+        "topTubeEffective": 540.6,
+        "seatTubeCenterToTop": 465.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.5,
+        "headTubeLength": 130.0,
+        "headTubeAngle": 70.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 453,
+        "wheelbase": 1052.6,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 772.8,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "m",
+      "name": "M",
+      "measurements": {
+        "stack": 566.5,
+        "reach": 383.0,
+        "topTubeActual": 538.5,
+        "topTubeEffective": 556.5,
+        "seatTubeCenterToTop": 490.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 150.0,
+        "headTubeAngle": 70.5,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1060.4,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 795.5,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
       "code": "l",
       "name": "L",
       "measurements": {
@@ -34,7 +163,27 @@
         "forkRake": 50,
         "forkLength": 390,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 817.8
+        "standoverHeight": 817.8,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
       }
     },
     {
@@ -57,7 +206,27 @@
         "forkRake": 50,
         "forkLength": 390,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 839.1
+        "standoverHeight": 839.1,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
       }
     }
   ],

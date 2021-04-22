@@ -153,6 +153,75 @@ module Encode =
           "application", Encode.option Encode.list (x.Application |> Option.map (Seq.toList >> List.map tyreApplication))
         ])
 
+  let tyreClearance : Encoder<Map<int, int>> =
+    (fun x ->
+      x
+      |> Map.toSeq
+      |> Seq.map (fun (k, v) ->
+        Encode.object
+          [
+            "bsd", Encode.int k
+            "width", Encode.int v
+          ]
+      )
+      |> Encode.seq)
+
+  let frameMeasurements : Encoder<FrameMeasurements> =
+    (fun x ->
+      Encode.object
+        [
+          "stack", (Encode.option Encode.float) x.Stack
+          "reach", (Encode.option Encode.float) x.Reach
+          "topTubeActual", (Encode.option Encode.float) x.TopTubeActual
+          "topTubeEffective", (Encode.option Encode.float) x.TopTubeEffective
+          "seatTubeCenterToTop", (Encode.option Encode.float) x.SeatTubeCenterToTop
+          "seatTubeCenterToCenter", (Encode.option Encode.float) x.SeatTubeCenterToCenter
+          "headTubeLength", (Encode.option Encode.float) x.HeadTubeLength
+          "headTubeAngle", (Encode.option Encode.float) x.HeadTubeAngle
+          "seatTubeAngle", (Encode.option Encode.float) x.SeatTubeAngle
+          "bottomBracketDrop", (Encode.option Encode.float) x.BottomBracketDrop
+          "forkAxleToCrown", (Encode.option Encode.float) x.ForkAxleToCrown
+          "forkRake", (Encode.option Encode.float) x.ForkRake
+          "forkLength", (Encode.option Encode.float) x.ForkLength
+          "wheelbase", (Encode.option Encode.float) x.Wheelbase
+          "standoverHeight", (Encode.option Encode.float) x.StandoverHeight
+          "seatPostDiameter", (Encode.option Encode.float) x.SeatPostDiameter
+          "chainStayLength", (Encode.option Encode.float) x.ChainStayLength
+          "frontTyreClearance", tyreClearance x.FrontTyreClearance
+          "rearTyreClearance", tyreClearance x.RearTyreClearance
+      ])
+
+  let frameSize : Encoder<FrameSize> =
+    (fun x ->
+      Encode.object
+        [
+          "code", Encode.string x.Code
+          "name", Encode.string x.Name
+          "measurements", frameMeasurements x.Measurements
+        ])
+
+  let frame : Encoder<Frame> =
+    (fun x ->
+      Encode.object
+        [
+          "id", Encode.guid x.ID
+          "code", Encode.string x.Code
+          "name", Encode.string x.Name
+          "manufacturerCode", Encode.string x.ManufacturerCode
+          "manufacturerProductCode", (Encode.option Encode.string) x.ManufacturerProductCode
+          "manufacturerRevision", (Encode.option Encode.string) x.ManufacturerRevision
+          "hasDownTubeBottleCageMounts", Encode.bool x.HasDownTubeBottleCageMounts
+          "hasFenderMounts", Encode.bool x.HasFenderMounts
+          "hasForkCageMounts", Encode.bool x.HasForkCageMounts
+          "hasFrontRackMounts", Encode.bool x.HasFrontRackMounts
+          "hasRearRackMounts", Encode.bool x.HasRearRackMounts
+          "hasSeatTubeBottleCageMounts", Encode.bool x.HasSeatTubeBottleCageMounts
+          "hasTopTubeBagMounts", Encode.bool x.HasTopTubeBagMounts
+          "hasUnderDownTubeBottleCageMounts", Encode.bool x.HasUnderDownTubeBottleCageMounts
+          "sizes", Encode.list (List.map frameSize x.Sizes)
+          "sources", Encode.list (List.map Encode.string x.Sources)
+        ])
+
 module Decode =
 
   open System.Text.RegularExpressions
@@ -387,6 +456,16 @@ module Decode =
         }
       )
 
+  let private tyreClearance : Decoder<_> =
+    Decode.object (fun get ->
+      let bsd = get.Required.Field "bsd" Decode.int
+      let width = get.Required.Field "width" Decode.int
+
+      bsd, width
+    )
+    |> Decode.list
+    |> Decode.map Map.ofSeq
+
   let frameMeasurements : Decoder<FrameMeasurements> =
     Decode.object
       (fun get ->
@@ -408,6 +487,8 @@ module Decode =
           StandoverHeight = get.Optional.Field "standoverHeight" Decode.float
           SeatPostDiameter = get.Optional.Field "seatPostDiameter" Decode.float
           ChainStayLength = get.Optional.Field "chainStayLength" Decode.float
+          FrontTyreClearance = get.Required.Field "frontTyreClearance" tyreClearance
+          RearTyreClearance = get.Required.Field "rearTyreClearance" tyreClearance
         })
 
   let frameSize : Decoder<FrameSize> =

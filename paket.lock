@@ -53,9 +53,9 @@ NUGET
     System.ComponentModel.TypeConverter (4.3) - restriction: >= uap10.0
       System.ComponentModel.Primitives (>= 4.3) - restriction: || (&& (< monoandroid) (< monotouch) (< net45) (>= netstandard1.5) (< win8) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)) (&& (< monoandroid) (< net45) (>= netstandard1.0) (< netstandard1.5) (< win8)) (&& (>= net45) (< netstandard1.5)) (>= net462) (&& (< netstandard1.0) (>= win8)) (>= wp8) (>= wpa81)
     System.Runtime.InteropServices.RuntimeInformation (4.3) - restriction: >= uap10.0
-    Thoth.Json.Net (4.1)
+    Thoth.Json.Net (5.0)
       Fable.Core (>= 3.0 < 4.0) - restriction: && (< net46) (>= netstandard2.0)
-      FSharp.Core (>= 4.6.2) - restriction: || (>= net46) (>= netstandard2.0)
+      FSharp.Core (>= 4.7.2) - restriction: || (>= net46) (>= netstandard2.0)
       Newtonsoft.Json (>= 11.0.2) - restriction: || (>= net46) (>= netstandard2.0)
     xunit (2.4.1) - restriction: || (>= net46) (>= netstandard2.0)
       xunit.analyzers (>= 0.10)

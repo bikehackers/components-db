@@ -34,7 +34,19 @@
         "forkRake": 47,
         "forkLength": null,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 731.0
+        "standoverHeight": 731.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     },
     {
@@ -57,7 +69,19 @@
         "forkRake": 47,
         "forkLength": null,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 752.0
+        "standoverHeight": 752.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     },
     {
@@ -80,7 +104,19 @@
         "forkRake": 47,
         "forkLength": null,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 776.0
+        "standoverHeight": 776.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     },
     {
@@ -103,7 +139,19 @@
         "forkRake": 47,
         "forkLength": null,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 798.0
+        "standoverHeight": 798.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     },
     {
@@ -125,7 +173,19 @@
         "forkRake": 47,
         "forkLength": null,
         "seatPostDiameter": 27.2,
-        "standoverHeight": 820.0
+        "standoverHeight": 820.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 40
+          }
+        ]
       }
     }
   ],
