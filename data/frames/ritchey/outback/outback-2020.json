@@ -1,0 +1,236 @@
+{
+  "id": "2bd9eea6-ae97-4b2c-ba89-d38b2715b266",
+  "code": "outback",
+  "name": "Outback",
+  "manufacturerCode": "ritchey",
+  "manufacturerProductCode": "97500008002",
+  "manufacturerRevision": "my20",
+  "hasForkCageMounts": true,
+  "hasTopTubeBagMounts": false,
+  "hasUnderDownTubeBottleCageMounts": true,
+  "hasSeatTubeBottleCageMounts": true,
+  "hasDownTubeBottleCageMounts": true,
+  "hasFrontRackMounts": true,
+  "hasRearRackMounts": true,
+  "hasFenderMounts": true,
+  "sizes": [
+    {
+      "code": "xs",
+      "name": "XS",
+      "measurements": {
+        "stack": 531.7,
+        "reach": 373.0,
+        "topTubeActual": 509.8,
+        "topTubeEffective": 525.9,
+        "seatTubeCenterToTop": 465.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 115.0,
+        "headTubeAngle": 69.5,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 453,
+        "wheelbase": 1046.5,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 753.5,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "s",
+      "name": "S",
+      "measurements": {
+        "stack": 547.7,
+        "reach": 378.0,
+        "topTubeActual": 523.7,
+        "topTubeEffective": 540.6,
+        "seatTubeCenterToTop": 465.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.5,
+        "headTubeLength": 130.0,
+        "headTubeAngle": 70.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 453,
+        "wheelbase": 1052.6,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 772.8,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "m",
+      "name": "M",
+      "measurements": {
+        "stack": 566.5,
+        "reach": 383.0,
+        "topTubeActual": 538.5,
+        "topTubeEffective": 556.5,
+        "seatTubeCenterToTop": 490.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 150.0,
+        "headTubeAngle": 70.5,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1060.4,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 795.5,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "l",
+      "name": "L",
+      "measurements": {
+        "stack": 587.4,
+        "reach": 390.0,
+        "topTubeActual": 551.9,
+        "topTubeEffective": 569.8,
+        "seatTubeCenterToTop": 515.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 170.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1069.6,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 817.8,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    },
+    {
+      "code": "xl",
+      "name": "XL",
+      "measurements": {
+        "stack": 606.3,
+        "reach": 395.0,
+        "topTubeActual": 563.4,
+        "topTubeEffective": 580.6,
+        "seatTubeCenterToTop": 540.0,
+        "seatTubeCenterToCenter": null,
+        "seatTubeAngle": 73.0,
+        "headTubeLength": 190.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 68.0,
+        "chainStayLength": 453,
+        "wheelbase": 1081.1,
+        "forkAxleToCrown": 393,
+        "forkRake": 50,
+        "forkLength": 390,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 839.1,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 48
+          },
+          {
+            "bsd": 584,
+            "width": 51
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://eu.ritcheylogic.com/media/itm/magb1/Productfiles/97500008002/ritchey-outback-my20-geometry-0420.pdf"
+  ]
+}

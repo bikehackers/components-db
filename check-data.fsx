@@ -35,10 +35,10 @@ let rec private filesUnderPath (basePath : string) =
   seq {
     if Directory.Exists basePath
     then
-      for f in Directory.GetFiles (basePath) do
+      for f in Directory.GetFiles basePath do
         yield f
 
-      for d in Directory.GetDirectories (basePath) do
+      for d in Directory.GetDirectories basePath do
         yield! filesUnderPath d
   }
 
@@ -74,27 +74,6 @@ async {
     manufacturers
     |> Seq.map (fun x -> x.Code, x)
     |> Map.ofSeq
-
-  // Frames
-  let glob = Glob.Parse "./data/frames/**/*.json"
-
-  let xs =
-    filesUnderPath "./data/frames"
-    |> Seq.filter glob.IsMatch
-    |> Seq.toList
-
-  for filePath in xs do
-    printfn "%A" filePath
-
-    let! content =
-      File.ReadAllTextAsync filePath
-      |> Async.AwaitTask
-
-    let decoded =
-      Decode.fromString Decode.frameMeasurements content
-      |> Result.get
-
-    printfn "%A" decoded
 
   // Rear Derailleurs
   let glob = Glob.Parse "./data/rear-derailleurs/**/*.json"
@@ -239,6 +218,28 @@ async {
 
       let decoded =
         Decode.fromString Decode.tyre content
+        |> Result.get
+
+      printfn "%A" decoded
+      printfn "%A" (Map.find decoded.ManufacturerCode manufacturers)
+
+    // Frames
+    let glob = Glob.Parse "./data/frames/**/*.json"
+
+    let xs =
+      filesUnderPath "./data/frames"
+      |> Seq.filter glob.IsMatch
+      |> Seq.toList
+
+    for filePath in xs do
+      printfn "%A" filePath
+
+      let! content =
+        File.ReadAllTextAsync filePath
+        |> Async.AwaitTask
+
+      let decoded =
+        Decode.fromString Decode.frame content
         |> Result.get
 
       printfn "%A" decoded

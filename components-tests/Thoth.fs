@@ -171,3 +171,140 @@ let ``Encode.tyre should work for a round-trip`` () =
     |> Result.get
 
   decoded |> should equal x
+
+[<Fact>]
+let ``Decode.code should work for simple cases`` () =
+  let cases =
+    [
+      "abc", true
+      "0123", false
+      "1abc", false
+      "a_b_c", false
+      "a-b-c", true
+      "abc-123", true
+      "abc-def123", true
+    ]
+
+  for case in cases do
+    let input, isValidCode = case
+
+    let expected =
+      if isValidCode
+      then
+        Some input
+      else
+        None
+
+    let actual =
+      Decode.fromString Decode.code (sprintf "\"%s\"" input)
+      |> function
+        | Ok x -> Some x
+        | Error _ -> None
+
+    actual |> should equal expected
+
+[<Fact>]
+let ``Encode.frameMeasurements should work for a round-trip`` () =
+  let x =
+    {
+      Stack = Some 599.0
+      Reach = Some 401.0
+      TopTubeActual = Some  569.0
+      TopTubeEffective = Some 583.0
+      SeatTubeCenterToTop = Some 550.0
+      SeatTubeCenterToCenter = None
+      SeatTubeAngle = Some 73.0
+      HeadTubeLength = Some 180.0
+      HeadTubeAngle = Some 73.0
+      BottomBracketDrop = Some 70.0
+      ChainStayLength = Some 437.0
+      Wheelbase = Some 1047.0
+      ForkAxleToCrown = Some 383.0
+      ForkRake = Some 47.0
+      ForkLength = None
+      SeatPostDiameter = Some 27.2
+      StandoverHeight = Some 820.0
+      FrontTyreClearance =
+        Map.empty
+        |> Map.add 622 40
+      RearTyreClearance =
+        Map.empty
+        |> Map.add 622 40
+    }
+
+  let encoded =
+    Encode.frameMeasurements x
+    |> Encode.toString 2
+
+  let decoded =
+    Decode.fromString Decode.frameMeasurements encoded
+    |> Result.get
+
+  decoded |> should equal x
+
+[<Fact>]
+let ``Encode.frame should work for a round-trip`` () =
+  let x =
+    {
+      ID = Guid.NewGuid ()
+      Code = "abcdef"
+      Name = "abcdef"
+      ManufacturerCode = "xyz"
+      ManufacturerProductCode = Some "xyz"
+      ManufacturerRevision = Some "ijk"
+      HasFenderMounts = false
+      HasSeatTubeBottleCageMounts = false
+      HasDownTubeBottleCageMounts = false
+      HasUnderDownTubeBottleCageMounts = false
+      HasForkCageMounts = false
+      HasTopTubeBagMounts = false
+      HasFrontRackMounts = false
+      HasRearRackMounts = false
+      Sizes =
+        [
+          {
+            Name = "L"
+            Code = "l"
+            Measurements =
+              {
+                Stack = Some 599.0
+                Reach = Some 401.0
+                TopTubeActual = Some  569.0
+                TopTubeEffective = Some 583.0
+                SeatTubeCenterToTop = Some 550.0
+                SeatTubeCenterToCenter = None
+                SeatTubeAngle = Some 73.0
+                HeadTubeLength = Some 180.0
+                HeadTubeAngle = Some 73.0
+                BottomBracketDrop = Some 70.0
+                ChainStayLength = Some 437.0
+                Wheelbase = Some 1047.0
+                ForkAxleToCrown = Some 383.0
+                ForkRake = Some 47.0
+                ForkLength = None
+                SeatPostDiameter = Some 27.2
+                StandoverHeight = Some 820.0
+                FrontTyreClearance =
+                  Map.empty
+                  |> Map.add 622 40
+                RearTyreClearance =
+                  Map.empty
+                  |> Map.add 622 40
+              }
+          }
+        ]
+      Sources =
+        [
+          "https://example.com"
+        ]
+    }
+
+  let encoded =
+    Encode.frame x
+    |> Encode.toString 2
+
+  let decoded =
+    Decode.fromString Decode.frame encoded
+    |> Result.get
+
+  decoded |> should equal x
