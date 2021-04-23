@@ -1,0 +1,231 @@
+{
+  "id": "6a44d018-6932-4b87-b2f4-6ebaecf1a8a6",
+  "code": "stigmata-3",
+  "name": "Stigmata",
+  "manufacturerCode": "santa-cruz",
+  "manufacturerProductCode": "stigmata-3",
+  "manufacturerRevision": "2021",
+  "hasForkCageMounts": false,
+  "hasTopTubeBagMounts": false,
+  "hasUnderDownTubeBottleCageMounts": true,
+  "hasSeatTubeBottleCageMounts": true,
+  "hasDownTubeBottleCageMounts": true,
+  "hasFrontRackMounts": false,
+  "hasRearRackMounts": false,
+  "hasFenderMounts": true,
+  "sizes": [
+    {
+      "code": "52",
+      "name": "52",
+      "measurements": {
+        "stack": 555.0,
+        "reach": 372.0,
+        "topTubeActual": null,
+        "topTubeEffective": 526.0,
+        "seatTubeCenterToTop": 495.0,
+        "seatTubeAngle": 74.5,
+        "headTubeLength": 130.0,
+        "headTubeAngle": 71.0,
+        "bottomBracketDrop": 74.0,
+        "chainStayLength": 425,
+        "wheelbase": 1009.0,
+        "forkAxleToCrown": null,
+        "forkRake": 50,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 754.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ]
+      }
+    },
+    {
+      "code": "54",
+      "name": "54",
+      "measurements": {
+        "stack": 576.0,
+        "reach": 380.0,
+        "topTubeActual": null,
+        "topTubeEffective": 545.0,
+        "seatTubeCenterToTop": 520.0,
+        "seatTubeAngle": 74.0,
+        "headTubeLength": 150.0,
+        "headTubeAngle": 71.5,
+        "bottomBracketDrop": 72.0,
+        "chainStayLength": 425,
+        "wheelbase": 1015.0,
+        "forkAxleToCrown": null,
+        "forkRake": 50,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 776.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ]
+      }
+    },
+    {
+      "code": "56",
+      "name": "56",
+      "measurements": {
+        "stack": 596.0,
+        "reach": 388.0,
+        "topTubeActual": null,
+        "topTubeEffective": 565.0,
+        "seatTubeCenterToTop": 545.0,
+        "seatTubeAngle": 73.5,
+        "headTubeLength": 170.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 72.0,
+        "chainStayLength": 425,
+        "wheelbase": 1025.0,
+        "forkAxleToCrown": null,
+        "forkRake": 45,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 797.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ]
+      }
+    },
+    {
+      "code": "58",
+      "name": "58",
+      "measurements": {
+        "stack": 609.0,
+        "reach": 392.0,
+        "topTubeActual": null,
+        "topTubeEffective": 572.0,
+        "seatTubeCenterToTop": 565.0,
+        "seatTubeAngle": 73.5,
+        "headTubeLength": 185.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 425,
+        "wheelbase": 1034.0,
+        "forkAxleToCrown": null,
+        "forkRake": 45,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 816.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ]
+      }
+    },
+    {
+      "code": "60",
+      "name": "60",
+      "measurements": {
+        "stack": 628.0,
+        "reach": 405.0,
+        "topTubeActual": null,
+        "topTubeEffective": 591.0,
+        "seatTubeCenterToTop": 590.0,
+        "seatTubeAngle": 73.5,
+        "headTubeLength": 205.0,
+        "headTubeAngle": 72.0,
+        "bottomBracketDrop": 70.0,
+        "chainStayLength": 425,
+        "wheelbase": 1053.0,
+        "forkAxleToCrown": null,
+        "forkRake": 45,
+        "forkLength": null,
+        "seatPostDiameter": 27.2,
+        "standoverHeight": 834.0,
+        "frontTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ],
+        "rearTyreClearance": [
+          {
+            "bsd": 622,
+            "width": 45
+          },
+          {
+            "bsd": 584,
+            "width": 53
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://www.santacruzbicycles.com/en-GB/bikes/stigmata"
+  ]
+}
