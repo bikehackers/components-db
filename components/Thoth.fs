@@ -19,8 +19,6 @@ module Extras =
 
 module Encode =
 
-  open Extras
-
   let actuationRatio =
     (fun (x, y) -> Encode.string (sprintf "%i:%i" x y))
 
@@ -230,7 +228,7 @@ module Decode =
   let code : Decoder<string> =
     Decode.string
     |> Decode.andThen (fun x ->
-      let pattern = Regex "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+      let pattern = Regex "^[a-z0-9]*(-[a-z0-9]+)*$"
 
       if pattern.IsMatch x
       then

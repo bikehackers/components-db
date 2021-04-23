@@ -177,8 +177,9 @@ let ``Decode.code should work for simple cases`` () =
   let cases =
     [
       "abc", true
-      "0123", false
-      "1abc", false
+      "0123", true
+      "1abc", true
+      "52", true
       "a_b_c", false
       "a-b-c", true
       "abc-123", true
